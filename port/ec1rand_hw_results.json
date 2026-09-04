@@ -1,0 +1,3482 @@
+[
+  {
+    "name": "r000_300_R9_t6730_b13",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r001_330_R7_t4216_b7",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r002_310_R7_t5750_b18",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r003_560_R3_t3911_b23",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r004_150_R11_t554_b3",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r005_050_R0_t1750_b25",
+    "runs": [
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r006_570_R3_t492_b16",
+    "runs": [
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r007_1a0_R6_t3513_b21",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r008_250_R2_t5281_b2",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r009_770_R5_t4563_b6",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r010_3a0_R9_t6625_b11",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r011_300_R9_t5155_b0",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r012_770_R5_t8645_b22",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r013_710_R2_t6059_b22",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r014_1a0_R6_t117_b28",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r015_170_R13_t4921_b11",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r016_250_R2_t2579_b21",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r017_0d0_R9_t1702_b29",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r018_210_R15_t5172_b20",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r019_250_R2_t7473_b18",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r020_510_R3_t773_b22",
+    "runs": [
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r021_370_R6_t229_b31",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r022_530_R3_t2059_b22",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r023_520_R5_t1534_b16",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r024_5f0_R3_t81_b12",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r025_360_R2_t25_b24",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r026_0b0_R8_t5534_b6",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r027_3a0_R4_t9103_b4",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r028_150_R11_t5265_b2",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r029_580_R5_t8008_b19",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r030_3a0_R4_t8990_b30",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r031_5c0_R3_t7004_b8",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r032_560_R3_t2914_b27",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r033_6e0_R3_t5816_b11",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r034_230_R7_t2711_b7",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r035_690_R3_t1119_b26",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r036_360_R9_t6962_b19",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r037_150_R11_t7819_b18",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r038_630_R3_t5156_b30",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r039_280_R13_t5593_b23",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r040_640_R5_t5570_b4",
+    "runs": [
+      {
+        "cls": "SDC",
+        "verdict": "SDC",
+        "value": 14232,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "SDC",
+        "verdict": "SDC",
+        "value": 14232,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "SDC",
+        "verdict": "SDC",
+        "value": 14232,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r041_6f0_R3_t1069_b14",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r042_620_R3_t6345_b12",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r043_630_R3_t3278_b14",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r044_3a0_R4_t6215_b11",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r045_1c0_R11_t8358_b5",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r046_6e0_R3_t4624_b26",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r047_4c0_R3_t2533_b5",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r048_6a0_R5_t8042_b4",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r049_2d0_R9_t3633_b22",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r050_4d0_R5_t8956_b8",
+    "runs": [
+      {
+        "cls": "SDC",
+        "verdict": "SDC",
+        "value": 14712,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "SDC",
+        "verdict": "SDC",
+        "value": 14712,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "SDC",
+        "verdict": "SDC",
+        "value": 14712,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r051_570_R3_t1572_b16",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r052_2e0_R8_t584_b19",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r053_4d0_R5_t984_b6",
+    "runs": [
+      {
+        "cls": "SDC",
+        "verdict": "SDC",
+        "value": 14328,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "SDC",
+        "verdict": "SDC",
+        "value": 14328,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "SDC",
+        "verdict": "SDC",
+        "value": 14328,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r054_370_R7_t3656_b19",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r055_770_R5_t8641_b15",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r056_270_R9_t572_b10",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r057_200_R7_t8663_b20",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r058_1d0_R10_t5197_b16",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r059_370_R2_t7590_b29",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r060_050_R3_t1195_b11",
+    "runs": [
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r061_6b0_R6_t9237_b31",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r062_5f0_R2_t8153_b4",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r063_2f0_R9_t2254_b30",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r064_100_R3_t7045_b16",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r065_360_R2_t2175_b1",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r066_570_R3_t4943_b31",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r067_370_R6_t1652_b17",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r068_2d0_R9_t1399_b15",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r069_300_R9_t7265_b2",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r070_5c0_R3_t9194_b25",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r071_5c0_R3_t3436_b29",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r072_5d0_R3_t3331_b31",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r073_260_R2_t1190_b13",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r074_100_R3_t8818_b30",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r075_620_R3_t6040_b21",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r076_300_R9_t7947_b0",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r077_710_R3_t9113_b0",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r078_260_R2_t8029_b21",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r079_0b0_R9_t4759_b21",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r080_0b0_R9_t6753_b10",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r081_340_R4_t5953_b14",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r082_690_R3_t1442_b23",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r083_250_R2_t2156_b8",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r084_250_R7_t1290_b17",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r085_340_R4_t3217_b14",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r086_1f0_R4_t8985_b14",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r087_6b0_R3_t6494_b3",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r088_630_R3_t49_b26",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r089_570_R3_t573_b0",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r090_3a0_R9_t7177_b12",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r091_270_R9_t2624_b22",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r092_270_R4_t1576_b4",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r093_050_R0_t4006_b5",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 1,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r094_360_R9_t2883_b24",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r095_0d0_R9_t4601_b4",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r096_1a0_R6_t713_b17",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r097_100_R3_t8021_b16",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r098_6e0_R3_t3400_b0",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r099_210_R15_t4371_b23",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r100_270_R9_t2088_b11",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r101_6f0_R3_t287_b10",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r102_6a0_R5_t5106_b6",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r103_580_R5_t9522_b0",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r104_200_R13_t1199_b8",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r105_630_R3_t6309_b8",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r106_510_R3_t7903_b23",
+    "runs": [
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "CRASH",
+        "verdict": "CUDA_ERROR",
+        "value": null,
+        "injected": null,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r107_250_R2_t7030_b13",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r108_0f0_R8_t6843_b29",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r109_5f0_R3_t7387_b5",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r110_1b0_R9_t2822_b19",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r111_5e0_R5_t8941_b11",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r112_5e0_R5_t7448_b20",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r113_5e0_R5_t3952_b23",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r114_6e0_R3_t7857_b3",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r115_200_R7_t9580_b0",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r116_640_R5_t3885_b15",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r117_530_R4_t7148_b17",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r118_5c0_R3_t5947_b3",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  },
+  {
+    "name": "r119_6e0_R3_t392_b14",
+    "runs": [
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      },
+      {
+        "cls": "MASKED",
+        "verdict": "SUCCESS",
+        "value": 14200,
+        "injected": 0,
+        "rc": 0,
+        "inj_error": false
+      }
+    ]
+  }
+]

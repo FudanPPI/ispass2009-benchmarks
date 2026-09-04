@@ -1,0 +1,1564 @@
+{
+  "experiments": [
+    {
+      "name": "r000_300_R9_t6730_b13",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6730,
+        "target_pc": "0x300",
+        "target_register": "R9",
+        "target_bit": 13,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r001_330_R7_t4216_b7",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 4216,
+        "target_pc": "0x330",
+        "target_register": "R7",
+        "target_bit": 7,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r002_310_R7_t5750_b18",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5750,
+        "target_pc": "0x310",
+        "target_register": "R7",
+        "target_bit": 18,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r003_560_R3_t3911_b23",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3911,
+        "target_pc": "0x560",
+        "target_register": "R3",
+        "target_bit": 23,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r004_150_R11_t554_b3",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 554,
+        "target_pc": "0x150",
+        "target_register": "R11",
+        "target_bit": 3,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r005_050_R0_t1750_b25",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1750,
+        "target_pc": "0x50",
+        "target_register": "R0",
+        "target_bit": 25,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r006_570_R3_t492_b16",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 492,
+        "target_pc": "0x570",
+        "target_register": "R3",
+        "target_bit": 16,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r007_1a0_R6_t3513_b21",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3513,
+        "target_pc": "0x1a0",
+        "target_register": "R6",
+        "target_bit": 21,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r008_250_R2_t5281_b2",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5281,
+        "target_pc": "0x250",
+        "target_register": "R2",
+        "target_bit": 2,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r009_770_R5_t4563_b6",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 4563,
+        "target_pc": "0x770",
+        "target_register": "R5",
+        "target_bit": 6,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r010_3a0_R9_t6625_b11",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6625,
+        "target_pc": "0x3a0",
+        "target_register": "R9",
+        "target_bit": 11,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r011_300_R9_t5155_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5155,
+        "target_pc": "0x300",
+        "target_register": "R9",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r012_770_R5_t8645_b22",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8645,
+        "target_pc": "0x770",
+        "target_register": "R5",
+        "target_bit": 22,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r013_710_R2_t6059_b22",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6059,
+        "target_pc": "0x710",
+        "target_register": "R2",
+        "target_bit": 22,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r014_1a0_R6_t117_b28",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 117,
+        "target_pc": "0x1a0",
+        "target_register": "R6",
+        "target_bit": 28,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r015_170_R13_t4921_b11",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 4921,
+        "target_pc": "0x170",
+        "target_register": "R13",
+        "target_bit": 11,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r016_250_R2_t2579_b21",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2579,
+        "target_pc": "0x250",
+        "target_register": "R2",
+        "target_bit": 21,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r017_0d0_R9_t1702_b29",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1702,
+        "target_pc": "0xd0",
+        "target_register": "R9",
+        "target_bit": 29,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r018_210_R15_t5172_b20",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5172,
+        "target_pc": "0x210",
+        "target_register": "R15",
+        "target_bit": 20,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r019_250_R2_t7473_b18",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7473,
+        "target_pc": "0x250",
+        "target_register": "R2",
+        "target_bit": 18,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r020_510_R3_t773_b22",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 773,
+        "target_pc": "0x510",
+        "target_register": "R3",
+        "target_bit": 22,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r021_370_R6_t229_b31",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 229,
+        "target_pc": "0x370",
+        "target_register": "R6",
+        "target_bit": 31,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r022_530_R3_t2059_b22",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2059,
+        "target_pc": "0x530",
+        "target_register": "R3",
+        "target_bit": 22,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r023_520_R5_t1534_b16",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1534,
+        "target_pc": "0x520",
+        "target_register": "R5",
+        "target_bit": 16,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r024_5f0_R3_t81_b12",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 81,
+        "target_pc": "0x5f0",
+        "target_register": "R3",
+        "target_bit": 12,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r025_360_R2_t25_b24",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 25,
+        "target_pc": "0x360",
+        "target_register": "R2",
+        "target_bit": 24,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r026_0b0_R8_t5534_b6",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5534,
+        "target_pc": "0xb0",
+        "target_register": "R8",
+        "target_bit": 6,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r027_3a0_R4_t9103_b4",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 9103,
+        "target_pc": "0x3a0",
+        "target_register": "R4",
+        "target_bit": 4,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r028_150_R11_t5265_b2",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5265,
+        "target_pc": "0x150",
+        "target_register": "R11",
+        "target_bit": 2,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r029_580_R5_t8008_b19",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8008,
+        "target_pc": "0x580",
+        "target_register": "R5",
+        "target_bit": 19,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r030_3a0_R4_t8990_b30",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8990,
+        "target_pc": "0x3a0",
+        "target_register": "R4",
+        "target_bit": 30,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r031_5c0_R3_t7004_b8",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7004,
+        "target_pc": "0x5c0",
+        "target_register": "R3",
+        "target_bit": 8,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r032_560_R3_t2914_b27",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2914,
+        "target_pc": "0x560",
+        "target_register": "R3",
+        "target_bit": 27,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r033_6e0_R3_t5816_b11",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5816,
+        "target_pc": "0x6e0",
+        "target_register": "R3",
+        "target_bit": 11,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r034_230_R7_t2711_b7",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2711,
+        "target_pc": "0x230",
+        "target_register": "R7",
+        "target_bit": 7,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r035_690_R3_t1119_b26",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1119,
+        "target_pc": "0x690",
+        "target_register": "R3",
+        "target_bit": 26,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r036_360_R9_t6962_b19",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6962,
+        "target_pc": "0x360",
+        "target_register": "R9",
+        "target_bit": 19,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r037_150_R11_t7819_b18",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7819,
+        "target_pc": "0x150",
+        "target_register": "R11",
+        "target_bit": 18,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r038_630_R3_t5156_b30",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5156,
+        "target_pc": "0x630",
+        "target_register": "R3",
+        "target_bit": 30,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r039_280_R13_t5593_b23",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5593,
+        "target_pc": "0x280",
+        "target_register": "R13",
+        "target_bit": 23,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r040_640_R5_t5570_b4",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5570,
+        "target_pc": "0x640",
+        "target_register": "R5",
+        "target_bit": 4,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r041_6f0_R3_t1069_b14",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1069,
+        "target_pc": "0x6f0",
+        "target_register": "R3",
+        "target_bit": 14,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r042_620_R3_t6345_b12",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6345,
+        "target_pc": "0x620",
+        "target_register": "R3",
+        "target_bit": 12,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r043_630_R3_t3278_b14",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3278,
+        "target_pc": "0x630",
+        "target_register": "R3",
+        "target_bit": 14,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r044_3a0_R4_t6215_b11",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6215,
+        "target_pc": "0x3a0",
+        "target_register": "R4",
+        "target_bit": 11,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r045_1c0_R11_t8358_b5",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8358,
+        "target_pc": "0x1c0",
+        "target_register": "R11",
+        "target_bit": 5,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r046_6e0_R3_t4624_b26",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 4624,
+        "target_pc": "0x6e0",
+        "target_register": "R3",
+        "target_bit": 26,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r047_4c0_R3_t2533_b5",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2533,
+        "target_pc": "0x4c0",
+        "target_register": "R3",
+        "target_bit": 5,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r048_6a0_R5_t8042_b4",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8042,
+        "target_pc": "0x6a0",
+        "target_register": "R5",
+        "target_bit": 4,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r049_2d0_R9_t3633_b22",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3633,
+        "target_pc": "0x2d0",
+        "target_register": "R9",
+        "target_bit": 22,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r050_4d0_R5_t8956_b8",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8956,
+        "target_pc": "0x4d0",
+        "target_register": "R5",
+        "target_bit": 8,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r051_570_R3_t1572_b16",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1572,
+        "target_pc": "0x570",
+        "target_register": "R3",
+        "target_bit": 16,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r052_2e0_R8_t584_b19",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 584,
+        "target_pc": "0x2e0",
+        "target_register": "R8",
+        "target_bit": 19,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r053_4d0_R5_t984_b6",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 984,
+        "target_pc": "0x4d0",
+        "target_register": "R5",
+        "target_bit": 6,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r054_370_R7_t3656_b19",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3656,
+        "target_pc": "0x370",
+        "target_register": "R7",
+        "target_bit": 19,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r055_770_R5_t8641_b15",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8641,
+        "target_pc": "0x770",
+        "target_register": "R5",
+        "target_bit": 15,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r056_270_R9_t572_b10",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 572,
+        "target_pc": "0x270",
+        "target_register": "R9",
+        "target_bit": 10,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r057_200_R7_t8663_b20",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8663,
+        "target_pc": "0x200",
+        "target_register": "R7",
+        "target_bit": 20,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r058_1d0_R10_t5197_b16",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5197,
+        "target_pc": "0x1d0",
+        "target_register": "R10",
+        "target_bit": 16,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r059_370_R2_t7590_b29",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7590,
+        "target_pc": "0x370",
+        "target_register": "R2",
+        "target_bit": 29,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r060_050_R3_t1195_b11",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1195,
+        "target_pc": "0x50",
+        "target_register": "R3",
+        "target_bit": 11,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r061_6b0_R6_t9237_b31",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 9237,
+        "target_pc": "0x6b0",
+        "target_register": "R6",
+        "target_bit": 31,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r062_5f0_R2_t8153_b4",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8153,
+        "target_pc": "0x5f0",
+        "target_register": "R2",
+        "target_bit": 4,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r063_2f0_R9_t2254_b30",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2254,
+        "target_pc": "0x2f0",
+        "target_register": "R9",
+        "target_bit": 30,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r064_100_R3_t7045_b16",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7045,
+        "target_pc": "0x100",
+        "target_register": "R3",
+        "target_bit": 16,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r065_360_R2_t2175_b1",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2175,
+        "target_pc": "0x360",
+        "target_register": "R2",
+        "target_bit": 1,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r066_570_R3_t4943_b31",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 4943,
+        "target_pc": "0x570",
+        "target_register": "R3",
+        "target_bit": 31,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r067_370_R6_t1652_b17",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1652,
+        "target_pc": "0x370",
+        "target_register": "R6",
+        "target_bit": 17,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r068_2d0_R9_t1399_b15",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1399,
+        "target_pc": "0x2d0",
+        "target_register": "R9",
+        "target_bit": 15,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r069_300_R9_t7265_b2",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7265,
+        "target_pc": "0x300",
+        "target_register": "R9",
+        "target_bit": 2,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r070_5c0_R3_t9194_b25",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 9194,
+        "target_pc": "0x5c0",
+        "target_register": "R3",
+        "target_bit": 25,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r071_5c0_R3_t3436_b29",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3436,
+        "target_pc": "0x5c0",
+        "target_register": "R3",
+        "target_bit": 29,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r072_5d0_R3_t3331_b31",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3331,
+        "target_pc": "0x5d0",
+        "target_register": "R3",
+        "target_bit": 31,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r073_260_R2_t1190_b13",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1190,
+        "target_pc": "0x260",
+        "target_register": "R2",
+        "target_bit": 13,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r074_100_R3_t8818_b30",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8818,
+        "target_pc": "0x100",
+        "target_register": "R3",
+        "target_bit": 30,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r075_620_R3_t6040_b21",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6040,
+        "target_pc": "0x620",
+        "target_register": "R3",
+        "target_bit": 21,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r076_300_R9_t7947_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7947,
+        "target_pc": "0x300",
+        "target_register": "R9",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r077_710_R3_t9113_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 9113,
+        "target_pc": "0x710",
+        "target_register": "R3",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r078_260_R2_t8029_b21",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8029,
+        "target_pc": "0x260",
+        "target_register": "R2",
+        "target_bit": 21,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r079_0b0_R9_t4759_b21",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 4759,
+        "target_pc": "0xb0",
+        "target_register": "R9",
+        "target_bit": 21,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r080_0b0_R9_t6753_b10",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6753,
+        "target_pc": "0xb0",
+        "target_register": "R9",
+        "target_bit": 10,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r081_340_R4_t5953_b14",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5953,
+        "target_pc": "0x340",
+        "target_register": "R4",
+        "target_bit": 14,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r082_690_R3_t1442_b23",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1442,
+        "target_pc": "0x690",
+        "target_register": "R3",
+        "target_bit": 23,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r083_250_R2_t2156_b8",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2156,
+        "target_pc": "0x250",
+        "target_register": "R2",
+        "target_bit": 8,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r084_250_R7_t1290_b17",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1290,
+        "target_pc": "0x250",
+        "target_register": "R7",
+        "target_bit": 17,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r085_340_R4_t3217_b14",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3217,
+        "target_pc": "0x340",
+        "target_register": "R4",
+        "target_bit": 14,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r086_1f0_R4_t8985_b14",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8985,
+        "target_pc": "0x1f0",
+        "target_register": "R4",
+        "target_bit": 14,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r087_6b0_R3_t6494_b3",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6494,
+        "target_pc": "0x6b0",
+        "target_register": "R3",
+        "target_bit": 3,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r088_630_R3_t49_b26",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 49,
+        "target_pc": "0x630",
+        "target_register": "R3",
+        "target_bit": 26,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r089_570_R3_t573_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 573,
+        "target_pc": "0x570",
+        "target_register": "R3",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r090_3a0_R9_t7177_b12",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7177,
+        "target_pc": "0x3a0",
+        "target_register": "R9",
+        "target_bit": 12,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r091_270_R9_t2624_b22",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2624,
+        "target_pc": "0x270",
+        "target_register": "R9",
+        "target_bit": 22,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r092_270_R4_t1576_b4",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1576,
+        "target_pc": "0x270",
+        "target_register": "R4",
+        "target_bit": 4,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r093_050_R0_t4006_b5",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 4006,
+        "target_pc": "0x50",
+        "target_register": "R0",
+        "target_bit": 5,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r094_360_R9_t2883_b24",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2883,
+        "target_pc": "0x360",
+        "target_register": "R9",
+        "target_bit": 24,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r095_0d0_R9_t4601_b4",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 4601,
+        "target_pc": "0xd0",
+        "target_register": "R9",
+        "target_bit": 4,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r096_1a0_R6_t713_b17",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 713,
+        "target_pc": "0x1a0",
+        "target_register": "R6",
+        "target_bit": 17,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r097_100_R3_t8021_b16",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8021,
+        "target_pc": "0x100",
+        "target_register": "R3",
+        "target_bit": 16,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r098_6e0_R3_t3400_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3400,
+        "target_pc": "0x6e0",
+        "target_register": "R3",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r099_210_R15_t4371_b23",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 4371,
+        "target_pc": "0x210",
+        "target_register": "R15",
+        "target_bit": 23,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r100_270_R9_t2088_b11",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2088,
+        "target_pc": "0x270",
+        "target_register": "R9",
+        "target_bit": 11,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r101_6f0_R3_t287_b10",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 287,
+        "target_pc": "0x6f0",
+        "target_register": "R3",
+        "target_bit": 10,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r102_6a0_R5_t5106_b6",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5106,
+        "target_pc": "0x6a0",
+        "target_register": "R5",
+        "target_bit": 6,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r103_580_R5_t9522_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 9522,
+        "target_pc": "0x580",
+        "target_register": "R5",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r104_200_R13_t1199_b8",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 1199,
+        "target_pc": "0x200",
+        "target_register": "R13",
+        "target_bit": 8,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r105_630_R3_t6309_b8",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6309,
+        "target_pc": "0x630",
+        "target_register": "R3",
+        "target_bit": 8,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r106_510_R3_t7903_b23",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7903,
+        "target_pc": "0x510",
+        "target_register": "R3",
+        "target_bit": 23,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r107_250_R2_t7030_b13",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7030,
+        "target_pc": "0x250",
+        "target_register": "R2",
+        "target_bit": 13,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r108_0f0_R8_t6843_b29",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 6843,
+        "target_pc": "0xf0",
+        "target_register": "R8",
+        "target_bit": 29,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r109_5f0_R3_t7387_b5",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7387,
+        "target_pc": "0x5f0",
+        "target_register": "R3",
+        "target_bit": 5,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r110_1b0_R9_t2822_b19",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 2822,
+        "target_pc": "0x1b0",
+        "target_register": "R9",
+        "target_bit": 19,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r111_5e0_R5_t8941_b11",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 8941,
+        "target_pc": "0x5e0",
+        "target_register": "R5",
+        "target_bit": 11,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r112_5e0_R5_t7448_b20",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7448,
+        "target_pc": "0x5e0",
+        "target_register": "R5",
+        "target_bit": 20,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r113_5e0_R5_t3952_b23",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3952,
+        "target_pc": "0x5e0",
+        "target_register": "R5",
+        "target_bit": 23,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r114_6e0_R3_t7857_b3",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7857,
+        "target_pc": "0x6e0",
+        "target_register": "R3",
+        "target_bit": 3,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r115_200_R7_t9580_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 9580,
+        "target_pc": "0x200",
+        "target_register": "R7",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r116_640_R5_t3885_b15",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 3885,
+        "target_pc": "0x640",
+        "target_register": "R5",
+        "target_bit": 15,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r117_530_R4_t7148_b17",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 7148,
+        "target_pc": "0x530",
+        "target_register": "R4",
+        "target_bit": 17,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r118_5c0_R3_t5947_b3",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 5947,
+        "target_pc": "0x5c0",
+        "target_register": "R3",
+        "target_bit": 3,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "r119_6e0_R3_t392_b14",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/NQU.cubin",
+      "kernel_name": "_Z24solve_nqueen_cuda_kerneliiPjS_S_S_i",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 392,
+        "target_pc": "0x6e0",
+        "target_register": "R3",
+        "target_bit": 14,
+        "trigger_count": 1
+      }
+    }
+  ]
+}

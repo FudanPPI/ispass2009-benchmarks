@@ -1,0 +1,602 @@
+[
+  {
+    "name": "r000_5e0_R5_t1370_b20",
+    "pc": 1504,
+    "reg": "R5",
+    "thread": 1370,
+    "bit": 20,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r001_4c0_R3_t3736_b2",
+    "pc": 1216,
+    "reg": "R3",
+    "thread": 3736,
+    "bit": 2,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r002_2e0_R8_t2080_b3",
+    "pc": 736,
+    "reg": "R8",
+    "thread": 2080,
+    "bit": 3,
+    "opcode": "IMAD.MOV.U32",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r003_5b0_R3_t636_b0",
+    "pc": 1456,
+    "reg": "R3",
+    "thread": 636,
+    "bit": 0,
+    "opcode": "ISETP.GT.AND",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r004_200_R13_t9528_b10",
+    "pc": 512,
+    "reg": "R13",
+    "thread": 9528,
+    "bit": 10,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r005_200_R13_t5427_b2",
+    "pc": 512,
+    "reg": "R13",
+    "thread": 5427,
+    "bit": 2,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r006_0f0_R9_t796_b18",
+    "pc": 240,
+    "reg": "R9",
+    "thread": 796,
+    "bit": 18,
+    "opcode": "LDG.E",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r007_130_R13_t505_b2",
+    "pc": 304,
+    "reg": "R13",
+    "thread": 505,
+    "bit": 2,
+    "opcode": "SHF.L.U32",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r008_090_R9_t1715_b3",
+    "pc": 144,
+    "reg": "R9",
+    "thread": 1715,
+    "bit": 3,
+    "opcode": "IMAD.MOV.U32",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r009_1b0_R9_t9098_b5",
+    "pc": 432,
+    "reg": "R9",
+    "thread": 9098,
+    "bit": 5,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r010_280_R13_t9066_b13",
+    "pc": 640,
+    "reg": "R13",
+    "thread": 9066,
+    "bit": 13,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r011_520_R4_t641_b14",
+    "pc": 1312,
+    "reg": "R4",
+    "thread": 641,
+    "bit": 14,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r012_3c0_R12_t5282_b25",
+    "pc": 960,
+    "reg": "R12",
+    "thread": 5282,
+    "bit": 25,
+    "opcode": "IADD3",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r013_060_R8_t1551_b16",
+    "pc": 96,
+    "reg": "R8",
+    "thread": 1551,
+    "bit": 16,
+    "opcode": "ISETP.GE.AND",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r014_670_R3_t8614_b17",
+    "pc": 1648,
+    "reg": "R3",
+    "thread": 8614,
+    "bit": 17,
+    "opcode": "ISETP.GT.AND",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r015_500_R3_t7850_b28",
+    "pc": 1280,
+    "reg": "R3",
+    "thread": 7850,
+    "bit": 28,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r016_5f0_R3_t6474_b24",
+    "pc": 1520,
+    "reg": "R3",
+    "thread": 6474,
+    "bit": 24,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r017_050_R0_t339_b24",
+    "pc": 80,
+    "reg": "R0",
+    "thread": 339,
+    "bit": 24,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r018_380_R7_t9102_b25",
+    "pc": 896,
+    "reg": "R7",
+    "thread": 9102,
+    "bit": 25,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r019_4b0_R3_t9393_b26",
+    "pc": 1200,
+    "reg": "R3",
+    "thread": 9393,
+    "bit": 26,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r020_1c0_R11_t6907_b2",
+    "pc": 448,
+    "reg": "R11",
+    "thread": 6907,
+    "bit": 2,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r021_570_R3_t3749_b13",
+    "pc": 1392,
+    "reg": "R3",
+    "thread": 3749,
+    "bit": 13,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r022_0b0_R6_t852_b3",
+    "pc": 176,
+    "reg": "R6",
+    "thread": 852,
+    "bit": 3,
+    "opcode": "IMAD.WIDE",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r023_0e0_R6_t4624_b7",
+    "pc": 224,
+    "reg": "R6",
+    "thread": 4624,
+    "bit": 7,
+    "opcode": "LDG.E",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r024_110_R13_t5145_b6",
+    "pc": 272,
+    "reg": "R13",
+    "thread": 5145,
+    "bit": 6,
+    "opcode": "IMAD.MOV.U32",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r025_260_R2_t4649_b25",
+    "pc": 608,
+    "reg": "R2",
+    "thread": 4649,
+    "bit": 25,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r026_630_R5_t2414_b17",
+    "pc": 1584,
+    "reg": "R5",
+    "thread": 2414,
+    "bit": 17,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r027_0e0_R6_t5462_b15",
+    "pc": 224,
+    "reg": "R6",
+    "thread": 5462,
+    "bit": 15,
+    "opcode": "LDG.E",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r028_110_R13_t2827_b1",
+    "pc": 272,
+    "reg": "R13",
+    "thread": 2827,
+    "bit": 1,
+    "opcode": "IMAD.MOV.U32",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r029_3a0_R9_t1568_b3",
+    "pc": 928,
+    "reg": "R9",
+    "thread": 1568,
+    "bit": 3,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r030_190_R6_t1033_b8",
+    "pc": 400,
+    "reg": "R6",
+    "thread": 1033,
+    "bit": 8,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r031_550_R3_t7886_b13",
+    "pc": 1360,
+    "reg": "R3",
+    "thread": 7886,
+    "bit": 13,
+    "opcode": "ISETP.GT.AND",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r032_010_R0_t8922_b1",
+    "pc": 16,
+    "reg": "R0",
+    "thread": 8922,
+    "bit": 1,
+    "opcode": "S2R",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r033_5f0_R2_t7080_b30",
+    "pc": 1520,
+    "reg": "R2",
+    "thread": 7080,
+    "bit": 30,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r034_3a0_R4_t5811_b21",
+    "pc": 928,
+    "reg": "R4",
+    "thread": 5811,
+    "bit": 21,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r035_5c0_R3_t1998_b15",
+    "pc": 1472,
+    "reg": "R3",
+    "thread": 1998,
+    "bit": 15,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r036_390_R6_t9351_b17",
+    "pc": 912,
+    "reg": "R6",
+    "thread": 9351,
+    "bit": 17,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r037_160_R12_t7024_b27",
+    "pc": 352,
+    "reg": "R12",
+    "thread": 7024,
+    "bit": 27,
+    "opcode": "IMAD.MOV.U32",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r038_010_R0_t8435_b14",
+    "pc": 16,
+    "reg": "R0",
+    "thread": 8435,
+    "bit": 14,
+    "opcode": "S2R",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r039_050_R8_t2517_b14",
+    "pc": 80,
+    "reg": "R8",
+    "thread": 2517,
+    "bit": 14,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r040_380_R7_t8211_b9",
+    "pc": 896,
+    "reg": "R7",
+    "thread": 8211,
+    "bit": 9,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r041_2e0_R10_t1494_b25",
+    "pc": 736,
+    "reg": "R10",
+    "thread": 1494,
+    "bit": 25,
+    "opcode": "IMAD.MOV.U32",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r042_070_R3_t8279_b28",
+    "pc": 112,
+    "reg": "R3",
+    "thread": 8279,
+    "bit": 28,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r043_4d0_R5_t1478_b6",
+    "pc": 1232,
+    "reg": "R5",
+    "thread": 1478,
+    "bit": 6,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r044_0e0_R6_t4303_b1",
+    "pc": 224,
+    "reg": "R6",
+    "thread": 4303,
+    "bit": 1,
+    "opcode": "LDG.E",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r045_510_R3_t7899_b11",
+    "pc": 1296,
+    "reg": "R3",
+    "thread": 7899,
+    "bit": 11,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r046_6f0_R5_t9024_b9",
+    "pc": 1776,
+    "reg": "R5",
+    "thread": 9024,
+    "bit": 9,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r047_710_R3_t5319_b18",
+    "pc": 1808,
+    "reg": "R3",
+    "thread": 5319,
+    "bit": 18,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r048_610_R3_t1330_b20",
+    "pc": 1552,
+    "reg": "R3",
+    "thread": 1330,
+    "bit": 20,
+    "opcode": "ISETP.GT.AND",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r049_4b0_R3_t7297_b22",
+    "pc": 1200,
+    "reg": "R3",
+    "thread": 7297,
+    "bit": 22,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r050_090_R9_t7590_b8",
+    "pc": 144,
+    "reg": "R9",
+    "thread": 7590,
+    "bit": 8,
+    "opcode": "IMAD.MOV.U32",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r051_300_R9_t2060_b2",
+    "pc": 768,
+    "reg": "R9",
+    "thread": 2060,
+    "bit": 2,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r052_350_R6_t6322_b22",
+    "pc": 848,
+    "reg": "R6",
+    "thread": 6322,
+    "bit": 22,
+    "opcode": "SHF.R.U32.HI",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r053_2d0_R9_t1931_b11",
+    "pc": 720,
+    "reg": "R9",
+    "thread": 1931,
+    "bit": 11,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r054_360_R9_t2038_b5",
+    "pc": 864,
+    "reg": "R9",
+    "thread": 2038,
+    "bit": 5,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r055_2f0_R6_t4115_b28",
+    "pc": 752,
+    "reg": "R6",
+    "thread": 4115,
+    "bit": 28,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r056_670_R3_t9237_b15",
+    "pc": 1648,
+    "reg": "R3",
+    "thread": 9237,
+    "bit": 15,
+    "opcode": "ISETP.GT.AND",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r057_640_R5_t7527_b26",
+    "pc": 1600,
+    "reg": "R5",
+    "thread": 7527,
+    "bit": 26,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r058_170_R13_t6824_b28",
+    "pc": 368,
+    "reg": "R13",
+    "thread": 6824,
+    "bit": 28,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260905
+  },
+  {
+    "name": "r059_1d0_R10_t3682_b25",
+    "pc": 464,
+    "reg": "R10",
+    "thread": 3682,
+    "bit": 25,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260905
+  }
+]

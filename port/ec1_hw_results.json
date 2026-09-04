@@ -1,0 +1,352 @@
+[
+  {
+    "name": "z_baseline",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": null,
+    "detail": "queens=14200",
+    "wall": 0.3
+  },
+  {
+    "name": "a_r5_760_t0_b1",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14204,
+    "injected": 1,
+    "detail": "queens=14204 expected=14200",
+    "wall": 0.4
+  },
+  {
+    "name": "a_r5_760_t0_b2",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14192,
+    "injected": 1,
+    "detail": "queens=14192 expected=14200",
+    "wall": 0.4
+  },
+  {
+    "name": "a_r5_760_t0_b6",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14328,
+    "injected": 1,
+    "detail": "queens=14328 expected=14200",
+    "wall": 0.5
+  },
+  {
+    "name": "a_r5_760_t0_b8",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 13688,
+    "injected": 1,
+    "detail": "queens=13688 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "a_r5_760_t0_b10",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 16248,
+    "injected": 1,
+    "detail": "queens=16248 expected=14200",
+    "wall": 0.5
+  },
+  {
+    "name": "a_r5_760_t0_b11",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 10104,
+    "injected": 1,
+    "detail": "queens=10104 expected=14200",
+    "wall": 0.5
+  },
+  {
+    "name": "a_r5_760_t0_b12",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 6008,
+    "injected": 1,
+    "detail": "queens=6008 expected=14200",
+    "wall": 0.4
+  },
+  {
+    "name": "a_r5_760_t0_b16",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 145272,
+    "injected": 1,
+    "detail": "queens=145272 expected=14200",
+    "wall": 0.5
+  },
+  {
+    "name": "a_r5_760_t96_b1",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14204,
+    "injected": 1,
+    "detail": "queens=14204 expected=14200",
+    "wall": 0.5
+  },
+  {
+    "name": "a_r5_760_t96_b15",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 79736,
+    "injected": 1,
+    "detail": "queens=79736 expected=14200",
+    "wall": 0.5
+  },
+  {
+    "name": "a_r5_760_t192_b7",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14456,
+    "injected": 1,
+    "detail": "queens=14456 expected=14200",
+    "wall": 0.5
+  },
+  {
+    "name": "b_r2_770_t0_b0",
+    "rc": 0,
+    "verdict": "CUDA_ERROR",
+    "cls": "CRASH",
+    "value": null,
+    "injected": null,
+    "detail": "Cuda error in function 'cudaDeviceSynchronize(",
+    "wall": 2.3
+  },
+  {
+    "name": "b_r2_770_t0_b1",
+    "rc": 0,
+    "verdict": "CUDA_ERROR",
+    "cls": "CRASH",
+    "value": null,
+    "injected": null,
+    "detail": "Cuda error in function 'cudaDeviceSynchronize(",
+    "wall": 0.6
+  },
+  {
+    "name": "b_r2_770_t96_b0",
+    "rc": 0,
+    "verdict": "CUDA_ERROR",
+    "cls": "CRASH",
+    "value": null,
+    "injected": null,
+    "detail": "Cuda error in function 'cudaDeviceSynchronize(",
+    "wall": 2.1
+  },
+  {
+    "name": "b_r2_770_t96_b1",
+    "rc": 0,
+    "verdict": "CUDA_ERROR",
+    "cls": "CRASH",
+    "value": null,
+    "injected": null,
+    "detail": "Cuda error in function 'cudaDeviceSynchronize(",
+    "wall": 2.3
+  },
+  {
+    "name": "b_r2_770_t0_b20",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 0,
+    "injected": 1,
+    "detail": "queens=0 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "b_r2_770_t96_b20",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": 1,
+    "detail": "queens=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "c_entry_r5_t0_b0",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": 1,
+    "detail": "queens=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "c_entry_r5_t0_b7",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": 1,
+    "detail": "queens=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "c_entry_r5_t96_b0",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": 1,
+    "detail": "queens=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r4_190_t0_b3",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": 1,
+    "detail": "queens=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r4_190_t0_b20",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": 1,
+    "detail": "queens=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r4_190_t1_b11",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14198,
+    "injected": 1,
+    "detail": "queens=14198 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r4_190_t54_b3",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": 1,
+    "detail": "queens=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r7_230_t0_b3",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14238,
+    "injected": 1,
+    "detail": "queens=14238 expected=14200",
+    "wall": 0.7
+  },
+  {
+    "name": "d_r7_230_t0_b20",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": 1,
+    "detail": "queens=14200",
+    "wall": 0.7
+  },
+  {
+    "name": "d_r12_3c0_t0_b0",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14202,
+    "injected": 1,
+    "detail": "queens=14202 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r12_3c0_t0_b7",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14456,
+    "injected": 1,
+    "detail": "queens=14456 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r12_460_t0_b0",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14202,
+    "injected": 1,
+    "detail": "queens=14202 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r12_460_t1_b0",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14198,
+    "injected": 1,
+    "detail": "queens=14198 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r5_700_t0_b0",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14202,
+    "injected": 1,
+    "detail": "queens=14202 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r5_700_t0_b7",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14456,
+    "injected": 1,
+    "detail": "queens=14456 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "d_r2_700_t0_b4",
+    "rc": 0,
+    "verdict": "SDC",
+    "cls": "SDC",
+    "value": 14232,
+    "injected": 1,
+    "detail": "queens=14232 expected=14200",
+    "wall": 0.6
+  },
+  {
+    "name": "e_nofire_t55",
+    "rc": 0,
+    "verdict": "SUCCESS",
+    "cls": "MASKED",
+    "value": 14200,
+    "injected": 0,
+    "detail": "queens=14200",
+    "wall": 0.6
+  }
+]

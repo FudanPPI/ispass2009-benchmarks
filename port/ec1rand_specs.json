@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "r000_300_R9_t6730_b13",
+    "pc": 768,
+    "reg": "R9",
+    "thread": 6730,
+    "bit": 13,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r001_330_R7_t4216_b7",
+    "pc": 816,
+    "reg": "R7",
+    "thread": 4216,
+    "bit": 7,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r002_310_R7_t5750_b18",
+    "pc": 784,
+    "reg": "R7",
+    "thread": 5750,
+    "bit": 18,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r003_560_R3_t3911_b23",
+    "pc": 1376,
+    "reg": "R3",
+    "thread": 3911,
+    "bit": 23,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r004_150_R11_t554_b3",
+    "pc": 336,
+    "reg": "R11",
+    "thread": 554,
+    "bit": 3,
+    "opcode": "IADD3",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r005_050_R0_t1750_b25",
+    "pc": 80,
+    "reg": "R0",
+    "thread": 1750,
+    "bit": 25,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r006_570_R3_t492_b16",
+    "pc": 1392,
+    "reg": "R3",
+    "thread": 492,
+    "bit": 16,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r007_1a0_R6_t3513_b21",
+    "pc": 416,
+    "reg": "R6",
+    "thread": 3513,
+    "bit": 21,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r008_250_R2_t5281_b2",
+    "pc": 592,
+    "reg": "R2",
+    "thread": 5281,
+    "bit": 2,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r009_770_R5_t4563_b6",
+    "pc": 1904,
+    "reg": "R5",
+    "thread": 4563,
+    "bit": 6,
+    "opcode": "STG.E",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r010_3a0_R9_t6625_b11",
+    "pc": 928,
+    "reg": "R9",
+    "thread": 6625,
+    "bit": 11,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r011_300_R9_t5155_b0",
+    "pc": 768,
+    "reg": "R9",
+    "thread": 5155,
+    "bit": 0,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r012_770_R5_t8645_b22",
+    "pc": 1904,
+    "reg": "R5",
+    "thread": 8645,
+    "bit": 22,
+    "opcode": "STG.E",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r013_710_R2_t6059_b22",
+    "pc": 1808,
+    "reg": "R2",
+    "thread": 6059,
+    "bit": 22,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r014_1a0_R6_t117_b28",
+    "pc": 416,
+    "reg": "R6",
+    "thread": 117,
+    "bit": 28,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r015_170_R13_t4921_b11",
+    "pc": 368,
+    "reg": "R13",
+    "thread": 4921,
+    "bit": 11,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r016_250_R2_t2579_b21",
+    "pc": 592,
+    "reg": "R2",
+    "thread": 2579,
+    "bit": 21,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r017_0d0_R9_t1702_b29",
+    "pc": 208,
+    "reg": "R9",
+    "thread": 1702,
+    "bit": 29,
+    "opcode": "IMAD.WIDE",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r018_210_R15_t5172_b20",
+    "pc": 528,
+    "reg": "R15",
+    "thread": 5172,
+    "bit": 20,
+    "opcode": "ISETP.NE.AND",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r019_250_R2_t7473_b18",
+    "pc": 592,
+    "reg": "R2",
+    "thread": 7473,
+    "bit": 18,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r020_510_R3_t773_b22",
+    "pc": 1296,
+    "reg": "R3",
+    "thread": 773,
+    "bit": 22,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r021_370_R6_t229_b31",
+    "pc": 880,
+    "reg": "R6",
+    "thread": 229,
+    "bit": 31,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r022_530_R3_t2059_b22",
+    "pc": 1328,
+    "reg": "R3",
+    "thread": 2059,
+    "bit": 22,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r023_520_R5_t1534_b16",
+    "pc": 1312,
+    "reg": "R5",
+    "thread": 1534,
+    "bit": 16,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r024_5f0_R3_t81_b12",
+    "pc": 1520,
+    "reg": "R3",
+    "thread": 81,
+    "bit": 12,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r025_360_R2_t25_b24",
+    "pc": 864,
+    "reg": "R2",
+    "thread": 25,
+    "bit": 24,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r026_0b0_R8_t5534_b6",
+    "pc": 176,
+    "reg": "R8",
+    "thread": 5534,
+    "bit": 6,
+    "opcode": "IMAD.WIDE",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r027_3a0_R4_t9103_b4",
+    "pc": 928,
+    "reg": "R4",
+    "thread": 9103,
+    "bit": 4,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r028_150_R11_t5265_b2",
+    "pc": 336,
+    "reg": "R11",
+    "thread": 5265,
+    "bit": 2,
+    "opcode": "IADD3",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r029_580_R5_t8008_b19",
+    "pc": 1408,
+    "reg": "R5",
+    "thread": 8008,
+    "bit": 19,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r030_3a0_R4_t8990_b30",
+    "pc": 928,
+    "reg": "R4",
+    "thread": 8990,
+    "bit": 30,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r031_5c0_R3_t7004_b8",
+    "pc": 1472,
+    "reg": "R3",
+    "thread": 7004,
+    "bit": 8,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r032_560_R3_t2914_b27",
+    "pc": 1376,
+    "reg": "R3",
+    "thread": 2914,
+    "bit": 27,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r033_6e0_R3_t5816_b11",
+    "pc": 1760,
+    "reg": "R3",
+    "thread": 5816,
+    "bit": 11,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r034_230_R7_t2711_b7",
+    "pc": 560,
+    "reg": "R7",
+    "thread": 2711,
+    "bit": 7,
+    "opcode": "IADD3",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r035_690_R3_t1119_b26",
+    "pc": 1680,
+    "reg": "R3",
+    "thread": 1119,
+    "bit": 26,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r036_360_R9_t6962_b19",
+    "pc": 864,
+    "reg": "R9",
+    "thread": 6962,
+    "bit": 19,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r037_150_R11_t7819_b18",
+    "pc": 336,
+    "reg": "R11",
+    "thread": 7819,
+    "bit": 18,
+    "opcode": "IADD3",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r038_630_R3_t5156_b30",
+    "pc": 1584,
+    "reg": "R3",
+    "thread": 5156,
+    "bit": 30,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r039_280_R13_t5593_b23",
+    "pc": 640,
+    "reg": "R13",
+    "thread": 5593,
+    "bit": 23,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r040_640_R5_t5570_b4",
+    "pc": 1600,
+    "reg": "R5",
+    "thread": 5570,
+    "bit": 4,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r041_6f0_R3_t1069_b14",
+    "pc": 1776,
+    "reg": "R3",
+    "thread": 1069,
+    "bit": 14,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r042_620_R3_t6345_b12",
+    "pc": 1568,
+    "reg": "R3",
+    "thread": 6345,
+    "bit": 12,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r043_630_R3_t3278_b14",
+    "pc": 1584,
+    "reg": "R3",
+    "thread": 3278,
+    "bit": 14,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r044_3a0_R4_t6215_b11",
+    "pc": 928,
+    "reg": "R4",
+    "thread": 6215,
+    "bit": 11,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r045_1c0_R11_t8358_b5",
+    "pc": 448,
+    "reg": "R11",
+    "thread": 8358,
+    "bit": 5,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r046_6e0_R3_t4624_b26",
+    "pc": 1760,
+    "reg": "R3",
+    "thread": 4624,
+    "bit": 26,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r047_4c0_R3_t2533_b5",
+    "pc": 1216,
+    "reg": "R3",
+    "thread": 2533,
+    "bit": 5,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r048_6a0_R5_t8042_b4",
+    "pc": 1696,
+    "reg": "R5",
+    "thread": 8042,
+    "bit": 4,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r049_2d0_R9_t3633_b22",
+    "pc": 720,
+    "reg": "R9",
+    "thread": 3633,
+    "bit": 22,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r050_4d0_R5_t8956_b8",
+    "pc": 1232,
+    "reg": "R5",
+    "thread": 8956,
+    "bit": 8,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r051_570_R3_t1572_b16",
+    "pc": 1392,
+    "reg": "R3",
+    "thread": 1572,
+    "bit": 16,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r052_2e0_R8_t584_b19",
+    "pc": 736,
+    "reg": "R8",
+    "thread": 584,
+    "bit": 19,
+    "opcode": "IMAD.MOV.U32",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r053_4d0_R5_t984_b6",
+    "pc": 1232,
+    "reg": "R5",
+    "thread": 984,
+    "bit": 6,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r054_370_R7_t3656_b19",
+    "pc": 880,
+    "reg": "R7",
+    "thread": 3656,
+    "bit": 19,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r055_770_R5_t8641_b15",
+    "pc": 1904,
+    "reg": "R5",
+    "thread": 8641,
+    "bit": 15,
+    "opcode": "STG.E",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r056_270_R9_t572_b10",
+    "pc": 624,
+    "reg": "R9",
+    "thread": 572,
+    "bit": 10,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r057_200_R7_t8663_b20",
+    "pc": 512,
+    "reg": "R7",
+    "thread": 8663,
+    "bit": 20,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r058_1d0_R10_t5197_b16",
+    "pc": 464,
+    "reg": "R10",
+    "thread": 5197,
+    "bit": 16,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r059_370_R2_t7590_b29",
+    "pc": 880,
+    "reg": "R2",
+    "thread": 7590,
+    "bit": 29,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r060_050_R3_t1195_b11",
+    "pc": 80,
+    "reg": "R3",
+    "thread": 1195,
+    "bit": 11,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r061_6b0_R6_t9237_b31",
+    "pc": 1712,
+    "reg": "R6",
+    "thread": 9237,
+    "bit": 31,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r062_5f0_R2_t8153_b4",
+    "pc": 1520,
+    "reg": "R2",
+    "thread": 8153,
+    "bit": 4,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r063_2f0_R9_t2254_b30",
+    "pc": 752,
+    "reg": "R9",
+    "thread": 2254,
+    "bit": 30,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r064_100_R3_t7045_b16",
+    "pc": 256,
+    "reg": "R3",
+    "thread": 7045,
+    "bit": 16,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r065_360_R2_t2175_b1",
+    "pc": 864,
+    "reg": "R2",
+    "thread": 2175,
+    "bit": 1,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r066_570_R3_t4943_b31",
+    "pc": 1392,
+    "reg": "R3",
+    "thread": 4943,
+    "bit": 31,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r067_370_R6_t1652_b17",
+    "pc": 880,
+    "reg": "R6",
+    "thread": 1652,
+    "bit": 17,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r068_2d0_R9_t1399_b15",
+    "pc": 720,
+    "reg": "R9",
+    "thread": 1399,
+    "bit": 15,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r069_300_R9_t7265_b2",
+    "pc": 768,
+    "reg": "R9",
+    "thread": 7265,
+    "bit": 2,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r070_5c0_R3_t9194_b25",
+    "pc": 1472,
+    "reg": "R3",
+    "thread": 9194,
+    "bit": 25,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r071_5c0_R3_t3436_b29",
+    "pc": 1472,
+    "reg": "R3",
+    "thread": 3436,
+    "bit": 29,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r072_5d0_R3_t3331_b31",
+    "pc": 1488,
+    "reg": "R3",
+    "thread": 3331,
+    "bit": 31,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r073_260_R2_t1190_b13",
+    "pc": 608,
+    "reg": "R2",
+    "thread": 1190,
+    "bit": 13,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r074_100_R3_t8818_b30",
+    "pc": 256,
+    "reg": "R3",
+    "thread": 8818,
+    "bit": 30,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r075_620_R3_t6040_b21",
+    "pc": 1568,
+    "reg": "R3",
+    "thread": 6040,
+    "bit": 21,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r076_300_R9_t7947_b0",
+    "pc": 768,
+    "reg": "R9",
+    "thread": 7947,
+    "bit": 0,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r077_710_R3_t9113_b0",
+    "pc": 1808,
+    "reg": "R3",
+    "thread": 9113,
+    "bit": 0,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r078_260_R2_t8029_b21",
+    "pc": 608,
+    "reg": "R2",
+    "thread": 8029,
+    "bit": 21,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r079_0b0_R9_t4759_b21",
+    "pc": 176,
+    "reg": "R9",
+    "thread": 4759,
+    "bit": 21,
+    "opcode": "IMAD.WIDE",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r080_0b0_R9_t6753_b10",
+    "pc": 176,
+    "reg": "R9",
+    "thread": 6753,
+    "bit": 10,
+    "opcode": "IMAD.WIDE",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r081_340_R4_t5953_b14",
+    "pc": 832,
+    "reg": "R4",
+    "thread": 5953,
+    "bit": 14,
+    "opcode": "IMAD.SHL.U32",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r082_690_R3_t1442_b23",
+    "pc": 1680,
+    "reg": "R3",
+    "thread": 1442,
+    "bit": 23,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r083_250_R2_t2156_b8",
+    "pc": 592,
+    "reg": "R2",
+    "thread": 2156,
+    "bit": 8,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r084_250_R7_t1290_b17",
+    "pc": 592,
+    "reg": "R7",
+    "thread": 1290,
+    "bit": 17,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r085_340_R4_t3217_b14",
+    "pc": 832,
+    "reg": "R4",
+    "thread": 3217,
+    "bit": 14,
+    "opcode": "IMAD.SHL.U32",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r086_1f0_R4_t8985_b14",
+    "pc": 496,
+    "reg": "R4",
+    "thread": 8985,
+    "bit": 14,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r087_6b0_R3_t6494_b3",
+    "pc": 1712,
+    "reg": "R3",
+    "thread": 6494,
+    "bit": 3,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r088_630_R3_t49_b26",
+    "pc": 1584,
+    "reg": "R3",
+    "thread": 49,
+    "bit": 26,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r089_570_R3_t573_b0",
+    "pc": 1392,
+    "reg": "R3",
+    "thread": 573,
+    "bit": 0,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r090_3a0_R9_t7177_b12",
+    "pc": 928,
+    "reg": "R9",
+    "thread": 7177,
+    "bit": 12,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r091_270_R9_t2624_b22",
+    "pc": 624,
+    "reg": "R9",
+    "thread": 2624,
+    "bit": 22,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r092_270_R4_t1576_b4",
+    "pc": 624,
+    "reg": "R4",
+    "thread": 1576,
+    "bit": 4,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r093_050_R0_t4006_b5",
+    "pc": 80,
+    "reg": "R0",
+    "thread": 4006,
+    "bit": 5,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r094_360_R9_t2883_b24",
+    "pc": 864,
+    "reg": "R9",
+    "thread": 2883,
+    "bit": 24,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r095_0d0_R9_t4601_b4",
+    "pc": 208,
+    "reg": "R9",
+    "thread": 4601,
+    "bit": 4,
+    "opcode": "IMAD.WIDE",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r096_1a0_R6_t713_b17",
+    "pc": 416,
+    "reg": "R6",
+    "thread": 713,
+    "bit": 17,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r097_100_R3_t8021_b16",
+    "pc": 256,
+    "reg": "R3",
+    "thread": 8021,
+    "bit": 16,
+    "opcode": "IMAD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r098_6e0_R3_t3400_b0",
+    "pc": 1760,
+    "reg": "R3",
+    "thread": 3400,
+    "bit": 0,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r099_210_R15_t4371_b23",
+    "pc": 528,
+    "reg": "R15",
+    "thread": 4371,
+    "bit": 23,
+    "opcode": "ISETP.NE.AND",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r100_270_R9_t2088_b11",
+    "pc": 624,
+    "reg": "R9",
+    "thread": 2088,
+    "bit": 11,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r101_6f0_R3_t287_b10",
+    "pc": 1776,
+    "reg": "R3",
+    "thread": 287,
+    "bit": 10,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r102_6a0_R5_t5106_b6",
+    "pc": 1696,
+    "reg": "R5",
+    "thread": 5106,
+    "bit": 6,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r103_580_R5_t9522_b0",
+    "pc": 1408,
+    "reg": "R5",
+    "thread": 9522,
+    "bit": 0,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r104_200_R13_t1199_b8",
+    "pc": 512,
+    "reg": "R13",
+    "thread": 1199,
+    "bit": 8,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r105_630_R3_t6309_b8",
+    "pc": 1584,
+    "reg": "R3",
+    "thread": 6309,
+    "bit": 8,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r106_510_R3_t7903_b23",
+    "pc": 1296,
+    "reg": "R3",
+    "thread": 7903,
+    "bit": 23,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r107_250_R2_t7030_b13",
+    "pc": 592,
+    "reg": "R2",
+    "thread": 7030,
+    "bit": 13,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r108_0f0_R8_t6843_b29",
+    "pc": 240,
+    "reg": "R8",
+    "thread": 6843,
+    "bit": 29,
+    "opcode": "LDG.E",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r109_5f0_R3_t7387_b5",
+    "pc": 1520,
+    "reg": "R3",
+    "thread": 7387,
+    "bit": 5,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r110_1b0_R9_t2822_b19",
+    "pc": 432,
+    "reg": "R9",
+    "thread": 2822,
+    "bit": 19,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r111_5e0_R5_t8941_b11",
+    "pc": 1504,
+    "reg": "R5",
+    "thread": 8941,
+    "bit": 11,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r112_5e0_R5_t7448_b20",
+    "pc": 1504,
+    "reg": "R5",
+    "thread": 7448,
+    "bit": 20,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r113_5e0_R5_t3952_b23",
+    "pc": 1504,
+    "reg": "R5",
+    "thread": 3952,
+    "bit": 23,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r114_6e0_R3_t7857_b3",
+    "pc": 1760,
+    "reg": "R3",
+    "thread": 7857,
+    "bit": 3,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r115_200_R7_t9580_b0",
+    "pc": 512,
+    "reg": "R7",
+    "thread": 9580,
+    "bit": 0,
+    "opcode": "LOP3.LUT",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r116_640_R5_t3885_b15",
+    "pc": 1600,
+    "reg": "R5",
+    "thread": 3885,
+    "bit": 15,
+    "opcode": "IMAD.IADD",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r117_530_R4_t7148_b17",
+    "pc": 1328,
+    "reg": "R4",
+    "thread": 7148,
+    "bit": 17,
+    "opcode": "STS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r118_5c0_R3_t5947_b3",
+    "pc": 1472,
+    "reg": "R3",
+    "thread": 5947,
+    "bit": 3,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  },
+  {
+    "name": "r119_6e0_R3_t392_b14",
+    "pc": 1760,
+    "reg": "R3",
+    "thread": 392,
+    "bit": 14,
+    "opcode": "LDS",
+    "baseline": false,
+    "seed": 20260907
+  }
+]

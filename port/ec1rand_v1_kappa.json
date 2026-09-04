@@ -1,0 +1,44 @@
+{
+  "seed": 20260905,
+  "n": 60,
+  "k_runs": 3,
+  "l1_agree": 60,
+  "po": 1.0,
+  "pe": 1.0,
+  "kappa": 1.0,
+  "ci95": [
+    1.0,
+    1.0
+  ],
+  "confusion": {
+    "MASKED": {
+      "MASKED": 60,
+      "SDC": 0,
+      "CRASH": 0
+    },
+    "SDC": {
+      "MASKED": 0,
+      "SDC": 0,
+      "CRASH": 0
+    },
+    "CRASH": {
+      "MASKED": 0,
+      "SDC": 0,
+      "CRASH": 0
+    }
+  },
+  "fired_subset": {
+    "n": 60,
+    "l1_agree": 60,
+    "po": 1.0,
+    "pe": 1.0,
+    "kappa": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  "value_agree": "60/60",
+  "nondeterministic": [],
+  "missing": []
+}

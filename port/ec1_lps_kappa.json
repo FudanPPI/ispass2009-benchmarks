@@ -1,0 +1,247 @@
+{
+  "n": 24,
+  "l1_agree": 23,
+  "po": 0.9583333333333334,
+  "pe": 0.8333333333333334,
+  "kappa": 0.7500000000000002,
+  "ci95": [
+    -0.49999999999999933,
+    1.0
+  ],
+  "value_agree": "8/20",
+  "confusion": {
+    "MASKED": {
+      "MASKED": 19,
+      "SDC": 1,
+      "CRASH": 0
+    },
+    "SDC": {
+      "MASKED": 0,
+      "SDC": 1,
+      "CRASH": 0
+    },
+    "CRASH": {
+      "MASKED": 0,
+      "SDC": 0,
+      "CRASH": 3
+    }
+  },
+  "rows": [
+    {
+      "name": "z_baseline",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_900_t33_b0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_900_t33_b1",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_900_t33_b20",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.000125,
+      "sw_val": 0.00012529358,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "a_r5_900_t33_b30",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": null,
+      "sw_val": null,
+      "l1": "✓",
+      "l2": "—"
+    },
+    {
+      "name": "a_r5_900_t33_b31",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.002,
+      "sw_val": 0.0020046877,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "a_r5_900_t34_b0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 6.5854451e-10,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "a_r5_900_t34_b31",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.002,
+      "sw_val": 0.00206068,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "a_r5_900_t65_b0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "b_r8_900_t33_b0",
+      "hw": "CRASH",
+      "sw": "CRASH",
+      "hw_val": null,
+      "sw_val": null,
+      "l1": "✓",
+      "l2": "—"
+    },
+    {
+      "name": "b_r8_900_t33_b1",
+      "hw": "CRASH",
+      "sw": "CRASH",
+      "hw_val": null,
+      "sw_val": null,
+      "l1": "✓",
+      "l2": "—"
+    },
+    {
+      "name": "b_r8_900_t34_b0",
+      "hw": "CRASH",
+      "sw": "CRASH",
+      "hw_val": null,
+      "sw_val": null,
+      "l1": "✓",
+      "l2": "—"
+    },
+    {
+      "name": "b_r2_420_t33_b0",
+      "hw": "MASKED",
+      "sw": "SDC",
+      "hw_val": 0.003274,
+      "sw_val": 0.017557352,
+      "l1": "✗",
+      "l2": "✗"
+    },
+    {
+      "name": "b_r2_420_t33_b1",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.00165,
+      "sw_val": 0.0099441236,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "c_r5_900_t0_b31",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.002,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "c_r5_900_t0_b0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "c_r5_900_t32_b31",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.002,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "d_r5_8a0_t33_b0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 6.5854451e-10,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "d_r5_8a0_t33_b30",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.000333,
+      "sw_val": 0.0041672778,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "d_r8_850_t33_b0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r6_8f0_t33_b0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.001,
+      "sw_val": 0.0056144698,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "d_r6_8f0_t33_b1",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.001,
+      "sw_val": 0.0010023437,
+      "l1": "✓",
+      "l2": "✗"
+    },
+    {
+      "name": "e_nofire_t0_5a0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "e_nofire_t0_5e0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 0.0,
+      "sw_val": 0.0,
+      "l1": "✓",
+      "l2": "✓"
+    }
+  ]
+}

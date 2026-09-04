@@ -1,0 +1,43 @@
+{
+    "experiments": [
+        {
+            "name": "lib_dv_r27_bit29_sdc",
+            "cubin_path": "ispass2009-benchmarks/port/cubin/LIB.cubin",
+            "kernel_name": "_Z28Pathcalc_Portfolio_KernelGPUPfS_",
+            "fault": {
+                "type": "register_bit_flip",
+                "target_thread": 0,
+                "target_pc": "0x6570",
+                "target_register": "R27",
+                "target_bit": 29,
+                "trigger_count": 1
+            }
+        },
+        {
+            "name": "lib_dv_r27_bit26_sdc",
+            "cubin_path": "ispass2009-benchmarks/port/cubin/LIB.cubin",
+            "kernel_name": "_Z28Pathcalc_Portfolio_KernelGPUPfS_",
+            "fault": {
+                "type": "register_bit_flip",
+                "target_thread": 0,
+                "target_pc": "0x6570",
+                "target_register": "R27",
+                "target_bit": 26,
+                "trigger_count": 1
+            }
+        },
+        {
+            "name": "lib_dv_r27_bit10_masked",
+            "cubin_path": "ispass2009-benchmarks/port/cubin/LIB.cubin",
+            "kernel_name": "_Z28Pathcalc_Portfolio_KernelGPUPfS_",
+            "fault": {
+                "type": "register_bit_flip",
+                "target_thread": 0,
+                "target_pc": "0x6570",
+                "target_register": "R27",
+                "target_bit": 10,
+                "trigger_count": 1
+            }
+        }
+    ]
+}

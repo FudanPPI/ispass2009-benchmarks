@@ -1,0 +1,303 @@
+{
+  "experiments": [
+    {
+      "name": "a_r5_900_t33_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "a_r5_900_t33_b1",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 1,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "a_r5_900_t33_b20",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 20,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "a_r5_900_t33_b30",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 30,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "a_r5_900_t33_b31",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 31,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "a_r5_900_t34_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 34,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "a_r5_900_t34_b31",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 34,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 31,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "a_r5_900_t65_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 65,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "b_r8_900_t33_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x900",
+        "target_register": "R8",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "b_r8_900_t33_b1",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x900",
+        "target_register": "R8",
+        "target_bit": 1,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "b_r8_900_t34_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 34,
+        "target_pc": "0x900",
+        "target_register": "R8",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "b_r2_420_t33_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x420",
+        "target_register": "R2",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "b_r2_420_t33_b1",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x420",
+        "target_register": "R2",
+        "target_bit": 1,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "c_r5_900_t0_b31",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 0,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 31,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "c_r5_900_t0_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 0,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "c_r5_900_t32_b31",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 32,
+        "target_pc": "0x900",
+        "target_register": "R5",
+        "target_bit": 31,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "d_r5_8a0_t33_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x8a0",
+        "target_register": "R5",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "d_r5_8a0_t33_b30",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x8a0",
+        "target_register": "R5",
+        "target_bit": 30,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "d_r8_850_t33_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x850",
+        "target_register": "R8",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "d_r6_8f0_t33_b0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x8f0",
+        "target_register": "R6",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "d_r6_8f0_t33_b1",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 33,
+        "target_pc": "0x8f0",
+        "target_register": "R6",
+        "target_bit": 1,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "e_nofire_t0_5a0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 0,
+        "target_pc": "0x5a0",
+        "target_register": "R9",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    },
+    {
+      "name": "e_nofire_t0_5e0",
+      "cubin_path": "ispass2009-benchmarks/port/cubin/LPS.cubin",
+      "kernel_name": "_Z13GPU_laplace3diiiiPfS_",
+      "fault": {
+        "type": "register_bit_flip",
+        "target_thread": 0,
+        "target_pc": "0x5e0",
+        "target_register": "R11",
+        "target_bit": 0,
+        "trigger_count": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "n": 35,
+  "l1_agree": 35,
+  "po": 1.0,
+  "pe": 0.2857142857142857,
+  "kappa": 1.0,
+  "ci95": [
+    1.0,
+    1.0
+  ],
+  "value_agree": "31/31",
+  "confusion": {
+    "MASKED": {
+      "MASKED": 10,
+      "SDC": 0,
+      "CRASH": 0
+    },
+    "SDC": {
+      "MASKED": 0,
+      "SDC": 21,
+      "CRASH": 0
+    },
+    "CRASH": {
+      "MASKED": 0,
+      "SDC": 0,
+      "CRASH": 4
+    }
+  },
+  "rows": [
+    {
+      "name": "z_baseline",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t0_b1",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14204,
+      "sw_val": 14204,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t0_b2",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14192,
+      "sw_val": 14192,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t0_b6",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14328,
+      "sw_val": 14328,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t0_b8",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 13688,
+      "sw_val": 13688,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t0_b10",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 16248,
+      "sw_val": 16248,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t0_b11",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 10104,
+      "sw_val": 10104,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t0_b12",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 6008,
+      "sw_val": 6008,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t0_b16",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 145272,
+      "sw_val": 145272,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t96_b1",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14204,
+      "sw_val": 14204,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t96_b15",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 79736,
+      "sw_val": 79736,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "a_r5_760_t192_b7",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14456,
+      "sw_val": 14456,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "b_r2_770_t0_b0",
+      "hw": "CRASH",
+      "sw": "CRASH",
+      "hw_val": null,
+      "sw_val": null,
+      "l1": "✓",
+      "l2": "—"
+    },
+    {
+      "name": "b_r2_770_t0_b1",
+      "hw": "CRASH",
+      "sw": "CRASH",
+      "hw_val": null,
+      "sw_val": null,
+      "l1": "✓",
+      "l2": "—"
+    },
+    {
+      "name": "b_r2_770_t96_b0",
+      "hw": "CRASH",
+      "sw": "CRASH",
+      "hw_val": null,
+      "sw_val": null,
+      "l1": "✓",
+      "l2": "—"
+    },
+    {
+      "name": "b_r2_770_t96_b1",
+      "hw": "CRASH",
+      "sw": "CRASH",
+      "hw_val": null,
+      "sw_val": null,
+      "l1": "✓",
+      "l2": "—"
+    },
+    {
+      "name": "b_r2_770_t0_b20",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 0,
+      "sw_val": 0,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "b_r2_770_t96_b20",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "c_entry_r5_t0_b0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "c_entry_r5_t0_b7",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "c_entry_r5_t96_b0",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r4_190_t0_b3",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r4_190_t0_b20",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r4_190_t1_b11",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14198,
+      "sw_val": 14198,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r4_190_t54_b3",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r7_230_t0_b3",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14238,
+      "sw_val": 14238,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r7_230_t0_b20",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r12_3c0_t0_b0",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14202,
+      "sw_val": 14202,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r12_3c0_t0_b7",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14456,
+      "sw_val": 14456,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r12_460_t0_b0",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14202,
+      "sw_val": 14202,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r12_460_t1_b0",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14198,
+      "sw_val": 14198,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r5_700_t0_b0",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14202,
+      "sw_val": 14202,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r5_700_t0_b7",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14456,
+      "sw_val": 14456,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "d_r2_700_t0_b4",
+      "hw": "SDC",
+      "sw": "SDC",
+      "hw_val": 14232,
+      "sw_val": 14232,
+      "l1": "✓",
+      "l2": "✓"
+    },
+    {
+      "name": "e_nofire_t55",
+      "hw": "MASKED",
+      "sw": "MASKED",
+      "hw_val": 14200,
+      "sw_val": 14200,
+      "l1": "✓",
+      "l2": "✓"
+    }
+  ]
+}

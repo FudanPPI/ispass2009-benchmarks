@@ -1,0 +1,19 @@
+# Compiled binaries
+bin/
+
+# Python cache
+__pycache__/
+
+# GPGPU-Sim temp files
+_app_cuda_version_*
+_cuobjdump_list_ptx_*
+
+# Generated PTX files
+*.sm_89.ptx
+*.sm_89.ptxas
+
+# Runtime checkpoint files
+checkpoint_files/
+
+# Wrong/invalid results (labeled, kept for audit)
+ec1rand_hw_results_wrongjson_*.json
