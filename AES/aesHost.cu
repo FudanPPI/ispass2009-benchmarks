@@ -32,6 +32,7 @@
 
 // includes, project
 #include <cutil.h>
+#include "texobj_compat.h"
 
 #include "sbox_E.h"
 #include "sbox_D.h"
@@ -125,22 +126,11 @@ extern "C" int aesHost(unsigned char* result, const unsigned char* inData, int i
     CUDA_SAFE_CALL( cudaMemcpy(d_Input, inData, inputSize, cudaMemcpyHostToDevice) );
     CUDA_SAFE_CALL( cudaMemcpy(d_Key, key, keySize, cudaMemcpyHostToDevice) );
 
-	//texture
-	cudaChannelFormatDesc chDesc;
-	chDesc.x = 32;
-	chDesc.y = 0;
-	chDesc.z = 0;
-	chDesc.w = 0;
-	chDesc.f = cudaChannelFormatKindUnsigned;
-	texEKey.normalized = false;
-	texDKey.normalized = false;
-	texEKey128.normalized = false;
-	texDKey128.normalized = false;
-
-	CUDA_SAFE_CALL( cudaBindTexture( 0, &texEKey128, d_Key, &chDesc, (size_t)keySize) );
-	CUDA_SAFE_CALL( cudaBindTexture( 0, &texDKey128, d_Key, &chDesc, (size_t)keySize) );
-	CUDA_SAFE_CALL( cudaBindTexture( 0, &texEKey, d_Key, &chDesc, (size_t)keySize) );
-	CUDA_SAFE_CALL( cudaBindTexture( 0, &texDKey, d_Key, &chDesc, (size_t)keySize) );
+	//texture (migrated to texture objects, CUDA 12)
+	BIND_TEX1D( texEKey128, d_Key, keySize, cudaCreateChannelDesc<unsigned>() );
+	BIND_TEX1D( texDKey128, d_Key, keySize, cudaCreateChannelDesc<unsigned>() );
+	BIND_TEX1D( texEKey,    d_Key, keySize, cudaCreateChannelDesc<unsigned>() );
+	BIND_TEX1D( texDKey,    d_Key, keySize, cudaCreateChannelDesc<unsigned>() );
 
     // allocate device memory for result
     unsigned int size_Result = inputSize;

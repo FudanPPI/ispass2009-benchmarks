@@ -267,7 +267,7 @@ y = t;
 	//__syncthreads();
 }*/
 
-/*__global__  __device__ void rayCalc(float3 * A, float3 * u, float * prof, uint imageW, uint imageH, float df, float tPixel)
+/*__global__ void rayCalc(float3 * A, float3 * u, float * prof, uint imageW, uint imageH, float df, float tPixel)
 {
 	uint x = __umul24(blockIdx.x, blockDim.x) + threadIdx.x;
     uint y = __umul24(blockIdx.y, blockDim.y) + threadIdx.y;
@@ -289,7 +289,7 @@ y = t;
 }*/
 
 
-/*__global__  __device__ void rayTrace(uint * Obj, float * prof, float3 * A, float3 * u, uint imageW, uint imageH, float pas, float df, uint nObj)
+/*__global__ void rayTrace(uint * Obj, float * prof, float3 * A, float3 * u, uint imageW, uint imageH, float pas, float df, uint nObj)
 {
 	uint x = __umul24(blockIdx.x, blockDim.x) + threadIdx.x;
     uint y = __umul24(blockIdx.y, blockDim.y) + threadIdx.y;
@@ -312,7 +312,7 @@ y = t;
 	}
 }*/
 /*
-__global__  __device__ void color(uint * result, uint * Obj, float * prof, float3 * A, float3 * u, uint imageW, uint imageH, float pas)
+__global__ void color(uint * result, uint * Obj, float * prof, float3 * A, float3 * u, uint imageW, uint imageH, float pas)
 {
 	uint x = __umul24(blockIdx.x, blockDim.x) + threadIdx.x;
     uint y = __umul24(blockIdx.y, blockDim.y) + threadIdx.y;
@@ -421,9 +421,9 @@ __device__ float float2int_pow50(float a)
 
 }
 #ifdef DEBUG_RT_CUDA
-__global__  __device__ void render(float4* d_debug_float4, uint* d_debug_uint, uint * result, Node * dnode, uint imageW, uint imageH, float pas, float df)
+__global__ void render(float4* d_debug_float4, uint* d_debug_uint, uint * result, Node * dnode, uint imageW, uint imageH, float pas, float df)
 #else
-__global__  __device__ void render(uint * result, Node * dnode, uint imageW, uint imageH, float pas, float df)
+__global__ void render(uint * result, Node * dnode, uint imageW, uint imageH, float pas, float df)
 #endif
 {
 	uint x = __umul24(blockIdx.x, blockDim.x) + threadIdx.x;
@@ -585,7 +585,7 @@ __global__  __device__ void render(uint * result, Node * dnode, uint imageW, uin
 	}
 }
 
-/*__global__  __device__ void renderPixel(uint * result, Node * dnode, uint imageW, uint imageH, float pas, float df)
+/*__global__ void renderPixel(uint * result, Node * dnode, uint imageW, uint imageH, float pas, float df)
 {
 	uint id(blockIdx.x + __umul24(blockIdx.y, imageW));
 	uint tid(threadIdx.x), x(blockIdx.x), y(blockIdx.y);

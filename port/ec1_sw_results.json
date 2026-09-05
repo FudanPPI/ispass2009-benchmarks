@@ -6,7 +6,7 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 18.1
+    "wall": 29.4
   },
   {
     "name": "a_r5_760_t0_b1",
@@ -15,7 +15,7 @@
     "cls": "SDC",
     "value": 14204,
     "trap": null,
-    "wall": 19.8
+    "wall": 27.1
   },
   {
     "name": "a_r5_760_t0_b2",
@@ -24,7 +24,7 @@
     "cls": "SDC",
     "value": 14192,
     "trap": null,
-    "wall": 22.4
+    "wall": 27.9
   },
   {
     "name": "a_r5_760_t0_b6",
@@ -33,7 +33,7 @@
     "cls": "SDC",
     "value": 14328,
     "trap": null,
-    "wall": 21.3
+    "wall": 26.5
   },
   {
     "name": "a_r5_760_t0_b8",
@@ -42,7 +42,7 @@
     "cls": "SDC",
     "value": 13688,
     "trap": null,
-    "wall": 20.9
+    "wall": 29.2
   },
   {
     "name": "a_r5_760_t0_b10",
@@ -51,7 +51,7 @@
     "cls": "SDC",
     "value": 16248,
     "trap": null,
-    "wall": 20.9
+    "wall": 26.9
   },
   {
     "name": "a_r5_760_t0_b11",
@@ -60,7 +60,7 @@
     "cls": "SDC",
     "value": 10104,
     "trap": null,
-    "wall": 22.8
+    "wall": 29.4
   },
   {
     "name": "a_r5_760_t0_b12",
@@ -69,7 +69,7 @@
     "cls": "SDC",
     "value": 6008,
     "trap": null,
-    "wall": 23.8
+    "wall": 26.8
   },
   {
     "name": "a_r5_760_t0_b16",
@@ -78,7 +78,7 @@
     "cls": "SDC",
     "value": 145272,
     "trap": null,
-    "wall": 22.6
+    "wall": 27.1
   },
   {
     "name": "a_r5_760_t96_b1",
@@ -87,7 +87,7 @@
     "cls": "SDC",
     "value": 14204,
     "trap": null,
-    "wall": 22.8
+    "wall": 24.9
   },
   {
     "name": "a_r5_760_t96_b15",
@@ -96,7 +96,7 @@
     "cls": "SDC",
     "value": 79736,
     "trap": null,
-    "wall": 20.4
+    "wall": 24.5
   },
   {
     "name": "a_r5_760_t192_b7",
@@ -105,7 +105,7 @@
     "cls": "SDC",
     "value": 14456,
     "trap": null,
-    "wall": 21.0
+    "wall": 26.0
   },
   {
     "name": "b_r2_770_t0_b0",
@@ -114,7 +114,7 @@
     "cls": "CRASH",
     "value": null,
     "trap": "misaligned address at STG pc=0x770 addr=0x400001 width=4",
-    "wall": 20.6
+    "wall": 25.1
   },
   {
     "name": "b_r2_770_t0_b1",
@@ -123,7 +123,7 @@
     "cls": "CRASH",
     "value": null,
     "trap": "misaligned address at STG pc=0x770 addr=0x400002 width=4",
-    "wall": 19.7
+    "wall": 24.6
   },
   {
     "name": "b_r2_770_t96_b0",
@@ -132,7 +132,7 @@
     "cls": "CRASH",
     "value": null,
     "trap": "misaligned address at STG pc=0x770 addr=0x400005 width=4",
-    "wall": 20.6
+    "wall": 25.4
   },
   {
     "name": "b_r2_770_t96_b1",
@@ -141,7 +141,7 @@
     "cls": "CRASH",
     "value": null,
     "trap": "misaligned address at STG pc=0x770 addr=0x400006 width=4",
-    "wall": 21.0
+    "wall": 24.4
   },
   {
     "name": "b_r2_770_t0_b20",
@@ -150,7 +150,7 @@
     "cls": "SDC",
     "value": 0,
     "trap": null,
-    "wall": 19.9
+    "wall": 26.4
   },
   {
     "name": "b_r2_770_t96_b20",
@@ -159,7 +159,7 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 21.0
+    "wall": 27.3
   },
   {
     "name": "c_entry_r5_t0_b0",
@@ -168,7 +168,7 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 20.1
+    "wall": 29.3
   },
   {
     "name": "c_entry_r5_t0_b7",
@@ -177,7 +177,7 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 20.5
+    "wall": 30.5
   },
   {
     "name": "c_entry_r5_t96_b0",
@@ -186,7 +186,7 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 19.7
+    "wall": 24.1
   },
   {
     "name": "d_r4_190_t0_b3",
@@ -195,7 +195,7 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 22.0
+    "wall": 24.9
   },
   {
     "name": "d_r4_190_t0_b20",
@@ -204,7 +204,7 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 21.7
+    "wall": 22.7
   },
   {
     "name": "d_r4_190_t1_b11",
@@ -213,7 +213,7 @@
     "cls": "SDC",
     "value": 14198,
     "trap": null,
-    "wall": 21.2
+    "wall": 23.7
   },
   {
     "name": "d_r4_190_t54_b3",
@@ -222,7 +222,7 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 20.0
+    "wall": 25.9
   },
   {
     "name": "d_r7_230_t0_b3",
@@ -231,7 +231,7 @@
     "cls": "SDC",
     "value": 14238,
     "trap": null,
-    "wall": 20.3
+    "wall": 31.4
   },
   {
     "name": "d_r7_230_t0_b20",
@@ -240,7 +240,7 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 19.4
+    "wall": 39.4
   },
   {
     "name": "d_r12_3c0_t0_b0",
@@ -249,7 +249,7 @@
     "cls": "SDC",
     "value": 14202,
     "trap": null,
-    "wall": 20.5
+    "wall": 34.9
   },
   {
     "name": "d_r12_3c0_t0_b7",
@@ -258,7 +258,7 @@
     "cls": "SDC",
     "value": 14456,
     "trap": null,
-    "wall": 20.5
+    "wall": 28.3
   },
   {
     "name": "d_r12_460_t0_b0",
@@ -267,7 +267,7 @@
     "cls": "SDC",
     "value": 14202,
     "trap": null,
-    "wall": 20.3
+    "wall": 37.5
   },
   {
     "name": "d_r12_460_t1_b0",
@@ -276,7 +276,7 @@
     "cls": "SDC",
     "value": 14198,
     "trap": null,
-    "wall": 20.2
+    "wall": 44.3
   },
   {
     "name": "d_r5_700_t0_b0",
@@ -285,7 +285,7 @@
     "cls": "SDC",
     "value": 14202,
     "trap": null,
-    "wall": 18.9
+    "wall": 41.1
   },
   {
     "name": "d_r5_700_t0_b7",
@@ -294,7 +294,7 @@
     "cls": "SDC",
     "value": 14456,
     "trap": null,
-    "wall": 20.1
+    "wall": 39.6
   },
   {
     "name": "d_r2_700_t0_b4",
@@ -303,7 +303,7 @@
     "cls": "SDC",
     "value": 14232,
     "trap": null,
-    "wall": 19.8
+    "wall": 34.7
   },
   {
     "name": "e_nofire_t55",
@@ -312,6 +312,6 @@
     "cls": "MASKED",
     "value": 14200,
     "trap": null,
-    "wall": 29.7
+    "wall": 31.4
   }
 ]

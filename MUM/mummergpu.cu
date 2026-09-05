@@ -17,6 +17,7 @@
 
 #include <mummergpu.h>
 #include <mummergpu_kernel.cu>
+#include "texobj_compat.h"
 
 #define BLOCKSIZE 256
 
@@ -345,12 +346,7 @@ void loadReferenceTexture(MatchContext* ctx)
 										numrows*ref->pitch, 
 										cudaMemcpyHostToDevice));
 
-	  reftex.addressMode[0] = cudaAddressModeClamp;
-	  reftex.addressMode[1] = cudaAddressModeClamp;
-	  reftex.filterMode = cudaFilterModePoint;
-	  reftex.normalized = false;
-      
-	  CUDA_SAFE_CALL(cudaBindTextureToArray( reftex, (cudaArray*)ref->d_ref_tex_array, refTextureDesc));
+	  BIND_TEX_ARRAY( reftex, (cudaArray*)ref->d_ref_tex_array, refTextureDesc);
 
       stopTimer(toboardtimer);
       ctx->statistics.t_moving_tree_pages += getTimerValue(toboardtimer);
@@ -367,7 +363,7 @@ void loadReferenceTexture(MatchContext* ctx)
 
 void unloadReferenceTexture(Reference* ref)
 {
-   CUDA_SAFE_CALL(cudaUnbindTexture( reftex ) );
+   UNBIND_TEX( reftex );
    CUDA_SAFE_CALL(cudaFreeArray((cudaArray*)(ref->d_ref_tex_array)));
    ref->d_ref_tex_array = NULL;
 }
@@ -406,14 +402,9 @@ void loadReference(MatchContext* ctx)
 										 ref->tex_width * ref->tex_height * sizeof(PixelOfNode), 
 										 cudaMemcpyHostToDevice));
 
-	  nodetex.addressMode[0] = cudaAddressModeClamp;
-	  nodetex.addressMode[1] = cudaAddressModeClamp;
-	  nodetex.filterMode = cudaFilterModePoint;
-	  nodetex.normalized = false;    // access with normalized texture coordinates
-
-	  CUDA_SAFE_CALL( cudaBindTextureToArray( nodetex, 
-									   (cudaArray*)ref->d_node_tex_array, 
-									   nodeTextureDesc));
+	  BIND_TEX_ARRAY( nodetex,
+					   (cudaArray*)ref->d_node_tex_array,
+					   nodeTextureDesc);
 
 	  cudaChannelFormatDesc childrenTextureDesc = 
 		 cudaCreateChannelDesc(32, 32, 32, 32, cudaChannelFormatKindUnsigned);
@@ -432,14 +423,9 @@ void loadReference(MatchContext* ctx)
 										ref->tex_width * ref->tex_height * sizeof(PixelOfChildren), 
 										cudaMemcpyHostToDevice));
 
-	  childrentex.addressMode[0] = cudaAddressModeClamp;
-	  childrentex.addressMode[1] = cudaAddressModeClamp;
-	  childrentex.filterMode = cudaFilterModePoint;
-	  childrentex.normalized = false;    // access with normalized texture coordinates
-
-	  CUDA_SAFE_CALL( cudaBindTextureToArray( childrentex, 
-									   (cudaArray*)(ref->d_children_tex_array), 
-									   childrenTextureDesc));
+	  BIND_TEX_ARRAY( childrentex,
+					   (cudaArray*)(ref->d_children_tex_array),
+					   childrenTextureDesc);
 	  fprintf(stderr, "done\n");
 
       stopTimer(toboardtimer);
@@ -457,11 +443,11 @@ void unloadReference(MatchContext* ctx)
 {
    Reference* ref = ctx->ref;
 
-   CUDA_SAFE_CALL(cudaUnbindTexture( nodetex ) );
+   UNBIND_TEX( nodetex );
    CUDA_SAFE_CALL(cudaFreeArray((cudaArray*)(ref->d_node_tex_array)));
    ref->d_node_tex_array = NULL;
 
-   CUDA_SAFE_CALL(cudaUnbindTexture( childrentex ) );
+   UNBIND_TEX( childrentex );
    CUDA_SAFE_CALL(cudaFreeArray((cudaArray*)(ref->d_children_tex_array)));
    ref->d_children_tex_array = NULL;
 

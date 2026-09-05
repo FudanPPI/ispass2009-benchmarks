@@ -13,10 +13,10 @@
 
 
 
-texture<ulong4, 2, cudaReadModeElementType> nodetex;
-texture<ulong4, 2, cudaReadModeElementType> childrentex;
+__device__ cudaTextureObject_t nodetex;
+__device__ cudaTextureObject_t childrentex;
 
-texture<char, 2, cudaReadModeElementType> reftex;
+__device__ cudaTextureObject_t reftex;
 
 __device__ void set_result(const TextureAddress& cur,
 					   MatchCoord* result, 
@@ -44,7 +44,7 @@ __device__ char getRef(int refpos)
   int bigy = refpos >> 18; 
   int y = (bigy << 2) + (bigx & 0x3); 
   int x = bigx >> 2; 
-  return tex2D(reftex, x, y);
+  return tex2D<char>(reftex, x, y);
 }
 
 __device__ char rc(char c)
@@ -118,7 +118,7 @@ mummergpuKernel(MatchCoord* match_coords,
 		 XPRINTF("Next edge to follow: %c (%d)\n", c, qry_match_len);
 
 	     PixelOfChildren children;
-		 children.data = tex2D(childrentex,cur.x, cur.y);
+		 children.data = tex2D<ulong4>(childrentex,cur.x, cur.y);
 		 prev = cur;
 
 		 switch(c)
@@ -148,7 +148,7 @@ mummergpuKernel(MatchCoord* match_coords,
          {
            unsigned short xval = cur.data & 0xFFFF;
            unsigned short yval = (cur.data & 0xFFFF0000) >> 16;
-		   node.data = tex2D(nodetex, xval, yval);
+		   node.data = tex2D<ulong4>(nodetex, xval, yval);
          }
 
 		 XPRINTF(" Edge coordinates: %d - %d\n", node.start, node.end);
@@ -214,7 +214,7 @@ mummergpuKernel(MatchCoord* match_coords,
 
       NEXT_SUBSTRING:
 
-      node.data = tex2D(nodetex, prev.x, prev.y);
+      node.data = tex2D<ulong4>(nodetex, prev.x, prev.y);
       cur = node.suffix;
 
       XPRINTF(" following suffix link. mustmatch:%d qry_match_len:%d sl:(%d,%d)\n", 
@@ -293,7 +293,7 @@ mummergpuRCKernel(MatchCoord* match_coords,
 		 XPRINTF("Next edge to follow: %c (%d)\n", c, qry_match_len);
 
 	     PixelOfChildren children;
-		 children.data = tex2D(childrentex,cur.x, cur.y);
+		 children.data = tex2D<ulong4>(childrentex,cur.x, cur.y);
 		 prev = cur;
 
 		 switch(c)
@@ -323,7 +323,7 @@ mummergpuRCKernel(MatchCoord* match_coords,
          {
            unsigned short xval = cur.data & 0xFFFF;
            unsigned short yval = (cur.data & 0xFFFF0000) >> 16;
-		   node.data = tex2D(nodetex, xval, yval);
+		   node.data = tex2D<ulong4>(nodetex, xval, yval);
          }
 
 		 XPRINTF(" Edge coordinates: %d - %d\n", node.start, node.end);
@@ -389,7 +389,7 @@ mummergpuRCKernel(MatchCoord* match_coords,
 
       NEXT_SUBSTRING:
 
-      node.data = tex2D(nodetex, prev.x, prev.y);
+      node.data = tex2D<ulong4>(nodetex, prev.x, prev.y);
       cur = node.suffix;
 
       XPRINTF(" following suffix link. mustmatch:%d qry_match_len:%d sl:(%d,%d)\n", 

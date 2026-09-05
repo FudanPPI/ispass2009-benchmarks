@@ -209,12 +209,27 @@ static inline CUTBoolean cutDeleteTimer(unsigned int handle)
     return CUT_TRUE;
 }
 
+
+// Byte-array comparison used by STO (storeGPU) result checking.
+inline CUTBoolean cutCompareub(const unsigned char* reference,
+                               const unsigned char* data,
+                               const unsigned int len) {
+    for (unsigned int i = 0; i < len; ++i)
+        if (reference[i] != data[i]) return CUT_FALSE;
+    return CUT_TRUE;
+}
+
 // ---------------------------------------------------------------------------
 // CUDA 12 deprecated (removed in 13) API — route to the modern equivalent.
 // Macro form avoids conflicting with the still-declared deprecated prototype.
 // ---------------------------------------------------------------------------
 
 #define cudaThreadSynchronize() cudaDeviceSynchronize()
+// --- shared-memory bank-conflict macro (legacy SDK debug helper) ---
+#ifndef CUT_BANK_CHECKER
+#define CUT_BANK_CHECKER(symbol, offsets) (symbol)[offsets]
+#endif
+
 
 #ifdef __cplusplus
 } /* extern "C" */

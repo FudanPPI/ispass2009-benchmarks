@@ -2,17 +2,18 @@
 
 #include <stdio.h>
 #include <cuda.h>
+#include "texobj_compat.h"
 
-texture<float4, 1, cudaReadModeElementType> t_LIFT;
-texture<float4, 1, cudaReadModeElementType> t_DrDsDt;
-texture<float, 1, cudaReadModeElementType> t_Dr;
-texture<float, 1, cudaReadModeElementType> t_Ds;
-texture<float, 1, cudaReadModeElementType> t_Dt;
-texture<float, 1, cudaReadModeElementType> t_vgeo;
-texture<float4, 1, cudaReadModeElementType> t_vgeo4;
-texture<float, 1, cudaReadModeElementType> t_Q;
-texture<float, 1, cudaReadModeElementType> t_partQ;
-texture<float, 1, cudaReadModeElementType> t_surfinfo;
+__device__ cudaTextureObject_t t_LIFT;
+__device__ cudaTextureObject_t t_DrDsDt;
+__device__ cudaTextureObject_t t_Dr;
+__device__ cudaTextureObject_t t_Ds;
+__device__ cudaTextureObject_t t_Dt;
+__device__ cudaTextureObject_t t_vgeo;
+__device__ cudaTextureObject_t t_vgeo4;
+__device__ cudaTextureObject_t t_Q;
+__device__ cudaTextureObject_t t_partQ;
+__device__ cudaTextureObject_t t_surfinfo;
 
 static float *c_LIFT;
 static float *c_DrDsDt;
@@ -44,11 +45,11 @@ double InitGPU3d(Mesh *mesh, int Nfields){
   cudaMemcpy( c_resQ, f_Q, sz, cudaMemcpyHostToDevice);
   cudaMemcpy( c_tmp,  f_Q, sz, cudaMemcpyHostToDevice);
 
-  cudaBindTexture(0,  t_Q, c_Q, sz);
+  BIND_TEX1D(t_Q, c_Q, sz, cudaCreateChannelDesc<float>());
 
   sz = mesh->parNtotalout*sizeof(float);
   cudaMalloc((void**) &c_partQ, sz);
-  cudaBindTexture(0,  t_partQ, c_partQ, sz);
+  BIND_TEX1D(t_partQ, c_partQ, sz, cudaCreateChannelDesc<float>());
 
   /*  LIFT  */
    sz = p_Np*(p_Nfp)*p_Nfaces*sizeof(float);
@@ -75,7 +76,7 @@ double InitGPU3d(Mesh *mesh, int Nfields){
    cudaMemcpy( c_LIFT, f_LIFT, sz, cudaMemcpyHostToDevice);
    
    /* Bind the array to the texture */
-   cudaBindTexture(0,  t_LIFT, c_LIFT, sz);
+   BIND_TEX1D(t_LIFT, c_LIFT, sz, cudaCreateChannelDesc<float4>());
 
    /* DrDsDt */
    sz = BSIZE*BSIZE*4*sizeof(float);
@@ -95,7 +96,7 @@ double InitGPU3d(Mesh *mesh, int Nfields){
    cudaMemcpy( c_DrDsDt, h_DrDsDt, sz, cudaMemcpyHostToDevice);
    
    /* Bind the array to the texture */
-   cudaBindTexture(0,  t_DrDsDt, c_DrDsDt, sz);
+   BIND_TEX1D(t_DrDsDt, c_DrDsDt, sz, cudaCreateChannelDesc<float4>());
 
    free(h_DrDsDt);
 
@@ -120,7 +121,7 @@ double InitGPU3d(Mesh *mesh, int Nfields){
    sz = mesh->K*12*sizeof(float);
    cudaMalloc  ((void**) &c_vgeo, sz);
    cudaMemcpy( c_vgeo, vgeo, sz, cudaMemcpyHostToDevice);
-   cudaBindTexture(0,  t_vgeo, c_vgeo, sz);
+   BIND_TEX1D(t_vgeo, c_vgeo, sz, cudaCreateChannelDesc<float>());
    
    /* surfinfo (vmapM, vmapP, Fscale, Bscale, nx, ny, nz, 0) */
    sz = mesh->K*p_Nfp*p_Nfaces*7*sizeof(float); 
@@ -180,7 +181,7 @@ double InitGPU3d(Mesh *mesh, int Nfields){
    cudaMalloc  ((void**) &c_surfinfo, sz);
    cudaMemcpy( c_surfinfo, h_surfinfo, sz, cudaMemcpyHostToDevice);
 
-   cudaBindTexture(0,  t_surfinfo, c_surfinfo, sz);
+   BIND_TEX1D(t_surfinfo, c_surfinfo, sz, cudaCreateChannelDesc<float>());
 
    free(h_surfinfo);
 
@@ -205,18 +206,18 @@ __global__ void MaxwellsGPU_VOL_Kernel3D(float *g_rhsQ){
   /* "coalesced"  */
   int m = n+k*p_Nfields*BSIZE;
   int id = n;
-  s_Q[id] = tex1Dfetch(t_Q, m); m+=BSIZE; id+=BSIZE;
-  s_Q[id] = tex1Dfetch(t_Q, m); m+=BSIZE; id+=BSIZE;
-  s_Q[id] = tex1Dfetch(t_Q, m); m+=BSIZE; id+=BSIZE;
-  s_Q[id] = tex1Dfetch(t_Q, m); m+=BSIZE; id+=BSIZE;
-  s_Q[id] = tex1Dfetch(t_Q, m); m+=BSIZE; id+=BSIZE;
-  s_Q[id] = tex1Dfetch(t_Q, m); 
+  s_Q[id] = tex1Dfetch<float>(t_Q, m); m+=BSIZE; id+=BSIZE;
+  s_Q[id] = tex1Dfetch<float>(t_Q, m); m+=BSIZE; id+=BSIZE;
+  s_Q[id] = tex1Dfetch<float>(t_Q, m); m+=BSIZE; id+=BSIZE;
+  s_Q[id] = tex1Dfetch<float>(t_Q, m); m+=BSIZE; id+=BSIZE;
+  s_Q[id] = tex1Dfetch<float>(t_Q, m); m+=BSIZE; id+=BSIZE;
+  s_Q[id] = tex1Dfetch<float>(t_Q, m); 
 
   if(p_Np<12 && n==0)
     for(m=0;m<12;++m)
-      s_facs[m] = tex1Dfetch(t_vgeo, 12*k+m);
+      s_facs[m] = tex1Dfetch<float>(t_vgeo, 12*k+m);
   else if(n<12 && p_Np>=12)
-    s_facs[n] = tex1Dfetch(t_vgeo, 12*k+n);
+    s_facs[n] = tex1Dfetch<float>(t_vgeo, 12*k+n);
 
   __syncthreads();
 
@@ -229,7 +230,7 @@ __global__ void MaxwellsGPU_VOL_Kernel3D(float *g_rhsQ){
   float Q;
 
   for(m=0;p_Np-m;){
-    float4 D = tex1Dfetch(t_DrDsDt, n+m*BSIZE);
+    float4 D = tex1Dfetch<float4>(t_DrDsDt, n+m*BSIZE);
 
     id = m;
     Q = s_Q[id]; dHxdr += D.x*Q; dHxds += D.y*Q; dHxdt += D.z*Q; id += BSIZE;
@@ -241,7 +242,7 @@ __global__ void MaxwellsGPU_VOL_Kernel3D(float *g_rhsQ){
 
     ++m;
 #if ( (p_Np) % 2 )==0
-    D = tex1Dfetch(t_DrDsDt, n+m*BSIZE);
+    D = tex1Dfetch<float4>(t_DrDsDt, n+m*BSIZE);
 
     id = m;
     Q = s_Q[id]; dHxdr += D.x*Q; dHxds += D.y*Q; dHxdt += D.z*Q; id += BSIZE;
@@ -254,7 +255,7 @@ __global__ void MaxwellsGPU_VOL_Kernel3D(float *g_rhsQ){
     ++m;
 
 #if ( (p_Np)%3 )==0
-    D = tex1Dfetch(t_DrDsDt, n+m*BSIZE);
+    D = tex1Dfetch<float4>(t_DrDsDt, n+m*BSIZE);
 
     id = m;
     Q = s_Q[id]; dHxdr += D.x*Q; dHxds += D.y*Q; dHxdt += D.z*Q; id += BSIZE;
@@ -301,35 +302,35 @@ __global__ void MaxwellsGPU_SURF_Kernel3D(float *g_Q, float *g_rhsQ){
   if(n< (p_Nfp*p_Nfaces) ){
     /* coalesced reads (maybe) */
     m = 7*(k*p_Nfp*p_Nfaces)+n;
-    const  int idM   = tex1Dfetch(t_surfinfo, m); m += p_Nfp*p_Nfaces;
-           int idP   = tex1Dfetch(t_surfinfo, m); m += p_Nfp*p_Nfaces;
-    const  float Fsc = tex1Dfetch(t_surfinfo, m); m += p_Nfp*p_Nfaces;
-    const  float Bsc = tex1Dfetch(t_surfinfo, m); m += p_Nfp*p_Nfaces;
-    const  float nx  = tex1Dfetch(t_surfinfo, m); m += p_Nfp*p_Nfaces;
-    const  float ny  = tex1Dfetch(t_surfinfo, m); m += p_Nfp*p_Nfaces;
-    const  float nz  = tex1Dfetch(t_surfinfo, m);
+    const  int idM   = tex1Dfetch<float>(t_surfinfo, m); m += p_Nfp*p_Nfaces;
+           int idP   = tex1Dfetch<float>(t_surfinfo, m); m += p_Nfp*p_Nfaces;
+    const  float Fsc = tex1Dfetch<float>(t_surfinfo, m); m += p_Nfp*p_Nfaces;
+    const  float Bsc = tex1Dfetch<float>(t_surfinfo, m); m += p_Nfp*p_Nfaces;
+    const  float nx  = tex1Dfetch<float>(t_surfinfo, m); m += p_Nfp*p_Nfaces;
+    const  float ny  = tex1Dfetch<float>(t_surfinfo, m); m += p_Nfp*p_Nfaces;
+    const  float nz  = tex1Dfetch<float>(t_surfinfo, m);
 
     /* check if idP<0  */
     double dHx, dHy, dHz, dEx, dEy, dEz;
     if(idP<0){
       idP = p_Nfields*(-1-idP);
       
-      dHx = Fsc*(tex1Dfetch(t_partQ, idP+0) - tex1Dfetch(t_Q, idM+0*BSIZE));
-      dHy = Fsc*(tex1Dfetch(t_partQ, idP+1) - tex1Dfetch(t_Q, idM+1*BSIZE));
-      dHz = Fsc*(tex1Dfetch(t_partQ, idP+2) - tex1Dfetch(t_Q, idM+2*BSIZE));
+      dHx = Fsc*(tex1Dfetch<float>(t_partQ, idP+0) - tex1Dfetch<float>(t_Q, idM+0*BSIZE));
+      dHy = Fsc*(tex1Dfetch<float>(t_partQ, idP+1) - tex1Dfetch<float>(t_Q, idM+1*BSIZE));
+      dHz = Fsc*(tex1Dfetch<float>(t_partQ, idP+2) - tex1Dfetch<float>(t_Q, idM+2*BSIZE));
       
-      dEx = Fsc*(tex1Dfetch(t_partQ, idP+3) - tex1Dfetch(t_Q, idM+3*BSIZE));
-      dEy = Fsc*(tex1Dfetch(t_partQ, idP+4) - tex1Dfetch(t_Q, idM+4*BSIZE));
-      dEz = Fsc*(tex1Dfetch(t_partQ, idP+5) - tex1Dfetch(t_Q, idM+5*BSIZE));
+      dEx = Fsc*(tex1Dfetch<float>(t_partQ, idP+3) - tex1Dfetch<float>(t_Q, idM+3*BSIZE));
+      dEy = Fsc*(tex1Dfetch<float>(t_partQ, idP+4) - tex1Dfetch<float>(t_Q, idM+4*BSIZE));
+      dEz = Fsc*(tex1Dfetch<float>(t_partQ, idP+5) - tex1Dfetch<float>(t_Q, idM+5*BSIZE));
     }
     else{
-      dHx = Fsc*(tex1Dfetch(t_Q, idP+0*BSIZE) - tex1Dfetch(t_Q, idM+0*BSIZE));
-      dHy = Fsc*(tex1Dfetch(t_Q, idP+1*BSIZE) - tex1Dfetch(t_Q, idM+1*BSIZE));
-      dHz = Fsc*(tex1Dfetch(t_Q, idP+2*BSIZE) - tex1Dfetch(t_Q, idM+2*BSIZE));
+      dHx = Fsc*(tex1Dfetch<float>(t_Q, idP+0*BSIZE) - tex1Dfetch<float>(t_Q, idM+0*BSIZE));
+      dHy = Fsc*(tex1Dfetch<float>(t_Q, idP+1*BSIZE) - tex1Dfetch<float>(t_Q, idM+1*BSIZE));
+      dHz = Fsc*(tex1Dfetch<float>(t_Q, idP+2*BSIZE) - tex1Dfetch<float>(t_Q, idM+2*BSIZE));
       
-      dEx = Fsc*(Bsc*tex1Dfetch(t_Q, idP+3*BSIZE) - tex1Dfetch(t_Q, idM+3*BSIZE));
-      dEy = Fsc*(Bsc*tex1Dfetch(t_Q, idP+4*BSIZE) - tex1Dfetch(t_Q, idM+4*BSIZE));
-      dEz = Fsc*(Bsc*tex1Dfetch(t_Q, idP+5*BSIZE) - tex1Dfetch(t_Q, idM+5*BSIZE));
+      dEx = Fsc*(Bsc*tex1Dfetch<float>(t_Q, idP+3*BSIZE) - tex1Dfetch<float>(t_Q, idM+3*BSIZE));
+      dEy = Fsc*(Bsc*tex1Dfetch<float>(t_Q, idP+4*BSIZE) - tex1Dfetch<float>(t_Q, idM+4*BSIZE));
+      dEz = Fsc*(Bsc*tex1Dfetch<float>(t_Q, idP+5*BSIZE) - tex1Dfetch<float>(t_Q, idM+5*BSIZE));
     }
 
     const double ndotdH = nx*dHx + ny*dHy + nz*dHz;
@@ -356,7 +357,7 @@ __global__ void MaxwellsGPU_SURF_Kernel3D(float *g_Q, float *g_rhsQ){
     int sk = n;
     /* can manually unroll to 4 because there are 4 faces */
     for(m=0;p_Nfaces*p_Nfp-m;){
-      const float4 L = tex1Dfetch(t_LIFT, sk); sk+=p_Np;
+      const float4 L = tex1Dfetch<float4>(t_LIFT, sk); sk+=p_Np;
 
       /* broadcast */
       int sk1 = m;
@@ -534,7 +535,7 @@ __global__ void partial_get_kernel3d(int Ntotal, int *g_index, float *g_partQ){
   int n = blockIdx.x * blockDim.x + threadIdx.x;
     
   if(n<Ntotal)
-    g_partQ[n] = tex1Dfetch(t_Q, g_index[n]);
+    g_partQ[n] = tex1Dfetch<float>(t_Q, g_index[n]);
   
 } 
 

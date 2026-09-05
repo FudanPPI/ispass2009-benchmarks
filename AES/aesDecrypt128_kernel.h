@@ -47,7 +47,7 @@
 
 #define INVSBOX(index)		CUT_BANK_CHECKER( invSBoxBlock, index )
 
-texture<unsigned, 1, cudaReadModeElementType> texDKey128;
+__device__ cudaTextureObject_t texDKey128;
 
 __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSize)
 {
@@ -81,7 +81,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
 	//----------------------------------- 1st stage -----------------------------------
 
 	x = mod4tx;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
     STAGEBLOCK2(tx).uival = STAGEBLOCK1(tx).uival ^ keyElem;
 
 	__syncthreads();
@@ -105,7 +105,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
     op4 = TBOXE3(op4).uival;
 
 	x = mod4tx+4;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 	STAGEBLOCK1(tx).uival = op1^op2^op3^op4^keyElem;
 
 	__syncthreads();
@@ -128,7 +128,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
     op4 = TBOXE3(op4).uival;
 
 	x = mod4tx+8;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 	 STAGEBLOCK2(tx).uival = op1^op2^op3^op4^keyElem;
 
 	__syncthreads();
@@ -151,7 +151,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
     op4 = TBOXE3(op4).uival;
 
 	x = mod4tx+12;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 	 STAGEBLOCK1(tx).uival = op1^op2^op3^op4^keyElem;
 
 	__syncthreads();
@@ -174,7 +174,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
     op4 = TBOXE3(op4).uival;
 
 	x = mod4tx+16;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 	 STAGEBLOCK2(tx).uival = op1^op2^op3^op4^keyElem;
 
 	__syncthreads();
@@ -197,7 +197,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
     op4 = TBOXE3(op4).uival;
 
 	x = mod4tx+20;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 	 STAGEBLOCK1(tx).uival = op1^op2^op3^op4^keyElem;
 
 	__syncthreads();
@@ -220,7 +220,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
     op4 = TBOXE3(op4).uival;
 
 	x = mod4tx+24;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 	STAGEBLOCK2(tx).uival = op1^op2^op3^op4^keyElem;
 
 	__syncthreads();
@@ -243,7 +243,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
     op4 = TBOXE3(op4).uival;
 
 	x = mod4tx+28;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 	STAGEBLOCK1(tx).uival = op1^op2^op3^op4^keyElem;
 
 	__syncthreads();
@@ -266,7 +266,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
     op4 = TBOXE3(op4).uival;
 
 	x = mod4tx+32;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 	STAGEBLOCK2(tx).uival = op1^op2^op3^op4^keyElem;
 
 	__syncthreads();
@@ -289,7 +289,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
     op4 = TBOXE3(op4).uival;
 
 	x = mod4tx+36;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 	STAGEBLOCK1(tx).uival = op1^op2^op3^op4^keyElem;
 
 	__syncthreads();
@@ -304,7 +304,7 @@ __global__ void aesDecrypt128( unsigned * result, unsigned * inData, int inputSi
 	op4 = STAGEBLOCK1( posIdx_D[16 + mod4tx*4+3] + idx2 ).ubval[3];
 	
 	x = mod4tx+40;
-	keyElem = tex1Dfetch(texDKey128, x);
+	keyElem = tex1Dfetch<unsigned>(texDKey128, x);
 
 	STAGEBLOCK2(tx).ubval[3] = INVSBOX(op4).ubval[0]^( keyElem>>24);
 	STAGEBLOCK2(tx).ubval[2] = INVSBOX(op3).ubval[0]^( keyElem>>16 & 0x000000FF);
