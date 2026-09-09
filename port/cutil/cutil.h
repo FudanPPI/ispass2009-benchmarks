@@ -177,7 +177,7 @@ static inline CUTBoolean cutStopTimer(unsigned int handle)
 {
     struct timespec now;
     if (handle >= (unsigned int)g_cutilTimerCount) return CUT_FALSE;
-    if (!g_cutilTimers[handle].running) return CUT_FALSE;
+    if (!g_cutilTimers[handle].running) return CUT_TRUE; // idempotent stop
     clock_gettime(CLOCK_MONOTONIC, &now);
     g_cutilTimers[handle].elapsed_ms +=
         cutilShimNowMs(now) - cutilShimNowMs(g_cutilTimers[handle].start);
