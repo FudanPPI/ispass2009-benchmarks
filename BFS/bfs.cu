@@ -19,7 +19,18 @@ Created by Pawan Harish.
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include <cutil.h>
+// cutil.h shim for CUDA 12 (cutil removed since CUDA 5)
+#define CUT_SAFE_CALL(x) x
+#define CUDA_SAFE_CALL(x) x
+#define CUT_CHECK_ERROR(msg) do { cudaError_t err = cudaGetLastError(); \
+    if(err != cudaSuccess) printf("%s: %s\n", msg, cudaGetErrorString(err)); } while(0)
+static unsigned int _timer_dummy;
+#define cutCreateTimer(x) (*(x) = 0)
+#define cutStartTimer(x)
+#define cutStopTimer(x)
+#define cutGetTimerValue(x) 0.0f
+#define cutResetTimer(x)
+#define cutDeleteTimer(x)
 
 #define MAX_THREADS_PER_BLOCK 256
 
@@ -190,7 +201,7 @@ void BFSGraph( int argc, char** argv)
 	CUDA_SAFE_CALL( cudaMemcpy( d_over, &stop, sizeof(bool), cudaMemcpyHostToDevice) );
     	CUT_SAFE_CALL( cutStartTimer( timer));
 	Kernel<<< grid, threads, 0 >>>( d_graph_nodes, d_graph_edges, d_graph_mask, d_graph_visited, d_cost, d_over, no_of_nodes);
-	CUDA_SAFE_CALL(cudaThreadSynchronize());
+	CUDA_SAFE_CALL(cudaDeviceSynchronize());
 	CUT_SAFE_CALL( cutStopTimer( timer));
 	timer_acc += cutGetTimerValue(timer); 
 	CUT_SAFE_CALL( cutResetTimer( timer));
@@ -221,6 +232,22 @@ void BFSGraph( int argc, char** argv)
 	fprintf(fpo,"%d) cost:%d\n",i,h_cost[i]);
 	fclose(fpo);
 	printf("Result stored in result.txt\n");
+
+	// Compare against golden for pass/fail
+	FILE *fgolden = fopen("data/result_SampleGraph.txt", "r");
+	if (fgolden) {
+	    int all_match = 1;
+	    char line[256];
+	    for (int i = 0; i < no_of_nodes; i++) {
+	        if (fgets(line, sizeof(line), fgolden) == NULL) { all_match = 0; break; }
+	        int idx, cost;
+	        if (sscanf(line, "%d) cost:%d", &idx, &cost) != 2) { all_match = 0; break; }
+	        if (h_cost[i] != cost) { all_match = 0; break; }
+	    }
+	    fclose(fgolden);
+	    if (all_match) printf("Test PASSED\n");
+	    else printf("Test FAILED\n");
+	}
 	
 	
     // cleanup memory
